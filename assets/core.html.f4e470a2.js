@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as c}from"./app.69219336.js";const r={},_=c("p",null,"electron\u6838\u5FC3",-1),n=[_];function s(a,l){return o(),t("div",null,n)}var m=e(r,[["render",s],["__file","core.html.vue"]]);export{m as default};

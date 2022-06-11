@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.2c067b38.js";const n={},r=c("p",null,"\u591A\u96C6\u7FA4\u901A\u4FE1",-1),s=[r];function _(a,l){return t(),o("div",null,s)}var u=e(n,[["render",_],["__file","multi-cluster-communication.html.vue"]]);export{u as default};

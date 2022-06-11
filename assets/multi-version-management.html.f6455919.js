@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as n,a as o}from"./app.2c067b38.js";const a={},r=o("p",null,"\u591A\u7248\u672C\u7BA1\u7406",-1),s=[r];function _(c,l){return t(),n("div",null,s)}var f=e(a,[["render",_],["__file","multi-version-management.html.vue"]]);export{f as default};

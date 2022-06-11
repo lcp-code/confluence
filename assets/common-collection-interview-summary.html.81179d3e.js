@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as c}from"./app.2c067b38.js";const n={},r=c("p",null,"\u5E38\u89C1\u96C6\u5408\u9762\u8BD5\u603B\u7ED3",-1),m=[r];function _(a,l){return o(),t("div",null,m)}var f=e(n,[["render",_],["__file","common-collection-interview-summary.html.vue"]]);export{f as default};
