@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c,a as o}from"./app.b6548bd8.js";const n={},r=o("p",null,"\u811A\u672C\u6CE8\u5165",-1),s=[r];function _(a,i){return t(),c("div",null,s)}var m=e(n,[["render",_],["__file","script-injection.html.vue"]]);export{m as default};

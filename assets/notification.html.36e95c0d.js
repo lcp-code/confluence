@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.b6548bd8.js";const n={},_=c("p",null,"\u6D88\u606F\u901A\u77E5",-1),a=[_];function r(i,s){return t(),o("div",null,a)}var m=e(n,[["render",r],["__file","notification.html.vue"]]);export{m as default};

@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c,a as o}from"./app.2c067b38.js";const r={},s=o("p",null,"\u547D\u4EE4\u67E5\u8BE2\u804C\u8D23\u5206\u79BB(CQRS)",-1),_=[s];function a(n,l){return t(),c("div",null,_)}var m=e(r,[["render",a],["__file","cqrs.html.vue"]]);export{m as default};

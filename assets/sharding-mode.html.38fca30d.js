@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as r}from"./app.2c067b38.js";const s={},_=r("p",null,"\u5206\u7247\u6A21\u5F0F",-1),a=[_];function c(n,d){return o(),t("div",null,a)}var m=e(s,[["render",c],["__file","sharding-mode.html.vue"]]);export{m as default};

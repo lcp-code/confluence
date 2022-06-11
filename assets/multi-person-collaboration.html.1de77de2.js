@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as e,c as t,a as r}from"./app.b6548bd8.js";const a={},l=r("p",null,"\u591A\u4EBA\u534F\u540C",-1),n=[l];function c(s,_){return e(),t("div",null,n)}var f=o(a,[["render",c],["__file","multi-person-collaboration.html.vue"]]);export{f as default};

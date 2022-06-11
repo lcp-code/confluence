@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.b6548bd8.js";const c={},s=r("p",null,"\u9650\u6D41",-1),_=[s];function a(l,n){return t(),o("div",null,_)}var f=e(c,[["render",a],["__file","restricted-flow.html.vue"]]);export{f as default};

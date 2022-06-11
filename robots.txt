@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://confluence.uuyang.cn/sitemap.xml
+Sitemap: https://confluence.uuyang.cn/confluence/sitemap.xml

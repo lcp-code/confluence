@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as a,c,a as t}from"./app.b6548bd8.js";const o={},r=t("p",null,"electron-package",-1),_=[r];function n(s,l){return a(),c("div",null,_)}var i=e(o,[["render",n],["__file","package.html.vue"]]);export{i as default};
