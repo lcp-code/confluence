@@ -2,7 +2,14 @@ import { hopeTheme } from "vuepress-theme-hope";
 import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
+const prefix = process.env.prefix;
 const site = "https://confluence.uuyang.cn";
+const footer = [
+  "锤炼高复用编程能力",
+  '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021048140号-1</a>',
+  "MIT Licensed",
+  "Copyright © 2022-present 低码汇",
+].join(" | ");
 export default hopeTheme({
   hostname: site,
 
@@ -13,12 +20,12 @@ export default hopeTheme({
 
   iconAssets: "//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css",
 
-  logo: "/logo.svg",
+  logo: `${prefix || ""}/logo.svg`,
 
   repo: "lcp-code/confluence",
 
   docsDir: "docs",
-  footer: "MIT Licensed | Copyright © 2022-present 低码汇",
+  footer,
   copyright: false,
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
@@ -91,7 +98,7 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebar.zh,
 
-      footer: "锤炼高复用编程能力",
+      footer,
 
       displayFooter: true,
 
