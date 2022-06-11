@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as n,a as o}from"./app.068718c6.js";const r={},_=o("p",null,"\u552F\u4E00ID\u751F\u6210",-1),a=[_];function c(s,i){return t(),n("div",null,a)}var d=e(r,[["render",c],["__file","unique-id-generation.html.vue"]]);export{d as default};

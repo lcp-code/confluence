@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as n}from"./app.068718c6.js";const a={},c=n("p",null,"\u8D2B\u8840\u6A21\u578B\u4E0E\u5145\u8840\u6A21\u578B",-1),s=[c];function _(r,i){return o(),t("div",null,s)}var f=e(a,[["render",_],["__file","anemia-congestion.html.vue"]]);export{f as default};

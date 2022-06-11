@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a}from"./app.068718c6.js";const _={},c=a("p",null,"idea",-1),r=[c];function s(n,i){return t(),o("div",null,r)}var f=e(_,[["render",s],["__file","idea.html.vue"]]);export{f as default};

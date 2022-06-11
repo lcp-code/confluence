@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a}from"./app.068718c6.js";const c={},r=a("p",null,"\u5BB9\u9519",-1),_=[r];function l(n,s){return t(),o("div",null,_)}var m=e(c,[["render",l],["__file","fault-tolerance.html.vue"]]);export{m as default};

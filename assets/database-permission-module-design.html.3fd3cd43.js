@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as s,c as o,a as t}from"./app.068718c6.js";const a={},n=t("p",null,"\u6570\u636E\u5E93\u6743\u9650\u6A21\u5757\u8BBE\u8BA1",-1),r=[n];function _(c,i){return s(),o("div",null,r)}var m=e(a,[["render",_],["__file","database-permission-module-design.html.vue"]]);export{m as default};

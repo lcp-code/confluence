@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as _}from"./app.520a0de5.js";const c={},n=_("p",null,"\u5E42\u7B49",-1),r=[n];function s(a,l){return t(),o("div",null,r)}var d=e(c,[["render",s],["__file","idempotent.html.vue"]]);export{d as default};
