@@ -4,6 +4,7 @@ import search from "./search";
 
 type IPrefix = undefined | `/${string}/`;
 const prefix: IPrefix = process.env.prefix as IPrefix;
+const isDev = process.env.NODE_ENV === "development";
 const keywords =
   "react、vue、RN、flutter、小程序、node.js、ts、typescript、java、MyBatis、低代码、面试、知识点、前端指南、后端指北、数据库、MySQL、高可用, 高并发、分布式、微服务、serveless";
 export default defineUserConfig({
@@ -43,7 +44,9 @@ export default defineUserConfig({
     [
       "script",
       {},
-      `var _hmt = _hmt || [];
+      isDev
+        ? ""
+        : `var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?${

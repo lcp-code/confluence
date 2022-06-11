@@ -100,7 +100,7 @@ features:
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present 低码汇
+footer: tempers high reuse coding ability | <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021048140号-1</a> | MIT Licensed | Copyright © 2022-present lowcode confluence
 ---
 
 This is an example of a project homepage. You can place your main content here.

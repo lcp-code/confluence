@@ -108,7 +108,7 @@ actions:
 #     details: 包括图标支持、全屏按钮、返回顶部按钮等
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present 低码汇
+footer: 锤炼高复用编程能力 | <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021048140号-1</a> | MIT Licensed | Copyright © 2022-present 低码汇
 ---
 
 
