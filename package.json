@@ -1,0 +1,22 @@
+{
+  "name": "lowcode-confluence",
+  "version": "1.0.0",
+  "description": "低码汇",
+  "license": "MIT",
+  "author": "低码汇",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev .\\docs\\ --clean-cache",
+    "docs:dev": "vuepress dev .\\docs\\"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "@vuepress/plugin-search": "2.0.0-beta.47",
+    "@vuepress/shared-utils": "^1.9.7",
+    "lru-cache": "^7.10.1",
+    "vue": "^3.2.36",
+    "vuepress": "2.0.0-beta.47",
+    "vuepress-theme-hope": "2.0.0-beta.80"
+  },
+  "dependencies": {}
+}

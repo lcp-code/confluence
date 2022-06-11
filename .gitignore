@@ -1,0 +1,14 @@
+/node_modules
+/package-lock.json
+.DS_Store
+# VS Code Config file
+.vscode/
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
+# Build files
+packages/*/lib/
+yarn.lock

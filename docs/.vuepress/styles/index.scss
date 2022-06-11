@@ -1,0 +1,19 @@
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    .product-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 180px;
+        margin-bottom: 20px;
+        color: #222;
+        img {
+            margin-right: 6px;
+            width: 20px;
+        }
+    }
+}
+.pan-architecture {
+    width: 100%;
+}
