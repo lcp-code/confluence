@@ -2,7 +2,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
-const prefix = process.env.prefix;
 const site = "https://confluence.uuyang.cn";
 const footer = [
   "锤炼高复用编程能力",
@@ -20,7 +19,7 @@ export default hopeTheme({
 
   iconAssets: "//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css",
 
-  logo: `${prefix || ""}/logo.svg`,
+  logo: `/logo.svg`,
 
   repo: "lcp-code/confluence",
 
