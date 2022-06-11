@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as n,c as s,a as t}from"./app.b6548bd8.js";const c={},o=t("p",null,"\u4E00\u81F4\u6027\u548C\u4E8B\u52A1",-1),a=[o];function r(_,i){return n(),s("div",null,a)}var f=e(c,[["render",r],["__file","consistency-and-Transactions.html.vue"]]);export{f as default};

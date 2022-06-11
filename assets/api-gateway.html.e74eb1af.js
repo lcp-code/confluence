@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as a,a as o}from"./app.b6548bd8.js";const _={},c=o("p",null,"API\u7F51\u5173",-1),r=[c];function s(n,l){return t(),a("div",null,r)}var m=e(_,[["render",s],["__file","api-gateway.html.vue"]]);export{m as default};
