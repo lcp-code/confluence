@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as _}from"./app.69219336.js";const a={},c=_("p",null,"\u89C4\u5212",-1),n=[c];function r(s,l){return t(),o("div",null,n)}var m=e(a,[["render",r],["__file","plan.html.vue"]]);export{m as default};

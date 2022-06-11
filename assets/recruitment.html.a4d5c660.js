@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as r,a as c}from"./app.068718c6.js";const o={},_=c("p",null,"\u62DB\u8058",-1),n=[_];function s(a,l){return t(),r("div",null,n)}var f=e(o,[["render",s],["__file","recruitment.html.vue"]]);export{f as default};

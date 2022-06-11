@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.69219336.js";const _={},c=r("p",null,"\u7F51\u7EDC",-1),n=[c];function s(a,l){return t(),o("div",null,n)}var m=e(_,[["render",s],["__file","network.html.vue"]]);export{m as default};

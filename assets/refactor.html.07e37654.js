@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.068718c6.js";const c={},_=r("p",null,"\u91CD\u6784",-1),a=[_];function s(n,l){return t(),o("div",null,a)}var m=e(c,[["render",s],["__file","refactor.html.vue"]]);export{m as default};
