@@ -137,11 +137,11 @@ tag:
     <span>Mobi</span>
   </a>
   <a href="https://www.inspur.com/lcjtww/2315499/2318933/2319221/2319483/2482456/index.html" class="product-item" target="_blank">
-    <img src="http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png"  title="浪潮iGIX"/>
+    <img src="http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png"  title=""/>
     <span>浪潮iGIX</span>
   </a>
   <a href="http://www.primeton.com/products/sc/" class="product-item" target="_blank">
-    <img src="http://www.primeton.com/images/logo.png"  title="普元"/>
+    <img src="http://www.primeton.com/images/logo.png"  title=""/>
     <span>普元</span>
   </a>
   <a href="https://www.bnocode.com/" class="product-item" target="_blank">
@@ -153,7 +153,7 @@ tag:
     <span>华炎魔方</span>
   </a>
   <a href="http://www.yindangu.com/" class="product-item" target="_blank">
-    <img src="http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png"  title="银弹谷"/>
+    <img src="http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png"  title=""/>
     <span>银弹谷</span>
   </a>
   <a href="https://laiye.com" class="product-item" target="_blank">

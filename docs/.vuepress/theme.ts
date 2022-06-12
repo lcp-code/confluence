@@ -128,9 +128,12 @@ export default hopeTheme({
        */
       provider: "Giscus",
       repo: "lcp-code/confluence",
-      repoId: "R_kgDOG_Pt2A",
+      repoId: "R_kgDOHe_7Pg",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOHe_7Ps4CPmqG",
+      comment: true,
+      mapping: "pathname",
+      reactionsEnabled: true,
 
       /**
        * Using Twikoo
