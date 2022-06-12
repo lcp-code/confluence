@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a}from"./app.520a0de5.js";const n={},r=a("p",null,"\u907F\u514D\u5355\u70B9\u6545\u969C",-1),i=[r];function _(c,l){return o(),t("div",null,i)}var d=e(n,[["render",_],["__file","avoid-single-point-of-failure.html.vue"]]);export{d as default};

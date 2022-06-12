@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as _}from"./app.5324c513.js";const a={},c=_("p",null,"FAQ",-1),r=[c];function s(n,l){return t(),o("div",null,r)}var m=e(a,[["render",s],["__file","faq.html.vue"]]);export{m as default};

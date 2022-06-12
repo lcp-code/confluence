@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as s}from"./app.520a0de5.js";const n={},_=s("p",null,"windows",-1),c=[_];function r(a,i){return o(),t("div",null,c)}var f=e(n,[["render",r],["__file","windows.html.vue"]]);export{f as default};

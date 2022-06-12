@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.5324c513.js";const s={},_=r("p",null,"\u7F51\u7EDC\u8BF7\u6C42",-1),c=[_];function n(a,l){return t(),o("div",null,c)}var m=e(s,[["render",n],["__file","network-request.html.vue"]]);export{m as default};

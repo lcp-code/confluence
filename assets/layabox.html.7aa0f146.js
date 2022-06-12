@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as a,a as t}from"./app.5324c513.js";const _={},c=t("p",null,"layabox",-1),r=[c];function l(s,n){return o(),a("div",null,r)}var m=e(_,[["render",l],["__file","layabox.html.vue"]]);export{m as default};

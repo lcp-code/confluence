@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as r}from"./app.5324c513.js";const c={},_=r("p",null,"\u5236\u54C1\u5F62\u6001",-1),s=[_];function a(n,l){return o(),t("div",null,s)}var f=e(c,[["render",a],["__file","product-form.html.vue"]]);export{f as default};

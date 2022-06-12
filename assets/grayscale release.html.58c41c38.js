@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as a,c as r,a as s}from"./app.520a0de5.js";const t={},c=s("p",null,"\u7070\u5EA6\u53D1\u5E03",-1),o=[c];function _(l,n){return a(),r("div",null,o)}var m=e(t,[["render",_],["__file","grayscale release.html.vue"]]);export{m as default};
