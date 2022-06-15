@@ -6,7 +6,7 @@ type IPrefix = undefined | `/${string}/`;
 const prefix: IPrefix = process.env.prefix as IPrefix;
 const isDev = process.env.NODE_ENV === "development";
 const keywords =
-  "react、vue、RN、flutter、小程序、node.js、ts、typescript、java、MyBatis、低代码、面试、知识点、前端指南、后端指北、数据库、MySQL、高可用, 高并发、分布式、微服务、serveless";
+  "html、js、css、css3、es6、react、vue、RN、flutter、小程序、node.js、nodeJs、ts、typescript、java、spring-boot、spring-cloud、dubbo、MyBatis、go、GO、istio、低代码、面试、知识点、前端指南、后端指北、数据库、MySQL、mysql、mongodb、redis、高可用, 高并发、分布式、微服务、serveless";
 export default defineUserConfig({
   base: !prefix ? "/" : prefix,
   title: "低码汇",

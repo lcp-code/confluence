@@ -1,6 +1,10 @@
 ---
 # 这是文章的标题
 title: 如何讲解一门技术
+head:
+  - - meta
+    - name: description
+      content: 如何讲解一门技术
 # 这是页面的图标
 icon: page
 # 这是侧边栏的顺序
@@ -21,47 +25,22 @@ sticky: true
 star: true
 ---
 
-`more` 注释之前的内容被视为文章摘要。
+#### **技术讲解万能公式**：
+1. 如果是英文词汇就先翻译成中文
+2. 一句话描述该技术的用途
+3. 描述该技术的核心概念或运作流程
+4. 口述该技术的代码书写思路
+5. 该技术的优点
+6. 该技术的缺点
+7. 如何弥补缺点
 
-<!-- more -->
+#### **以AJAX的原理为例**：
+请问 AJAX 的原理是什么？
+1. AJAX Asynchronous JavaScript and XML就是异步的 JS 和 XML 的缩写，目前我们一般用 JSON 代替 XML。
+2. AJAX 主要用于在不刷新页面的情况下向浏览器发起请求并接受响应，最后局部更新页面。
+3. 该技术最核心概念是 XMLHttpRequest 对象，该对象可发起 HTTP 请求，我们可以监听其 readystate 的变化获得响应。
+4. 具体代码是这样的 xxxxxxxx
+5. 优点刚才说了，无刷新请求。
+6. 缺点是被浏览器限制不能跨域。
+7. 想要跨越就要用到 JSONP 或 CORS 了。
 
-## 页面信息
-
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
-
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
-- 分类为 “使用指南”
-- 标签为 “如何讲解一门技术” 和 “使用指南”
-
-## 页面内容
-
-你可以自由在这里书写你的 Markdown。
-
-::: tip
-
-- 你可以将图片和 Markdown 文件放置在一起，但是你需要使用**相对链接**`./` 进行引用。
-
-- 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
-
-:::
-
-主题包含了一个自定义徽章章可以使用:
-
-> 文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" />
-
-## 页面结构
-
-此页面应当包含:
-
-- [路径导航](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/breadcrumb.html)
-- [标题和页面信息](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html)
-- [TOC (文章标题列表)](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/page.html#标题列表)
-- [贡献者、更新时间等页面元信息](https://vuepress-theme-hope.github.io/v2/guide/feature/meta.html)
-- [评论](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html)
-- [导航栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/navbar.html)
-- [侧边栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/sidebar.html)
-- [页脚](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/footer.html)
-- 返回顶部按钮
-
-你可以通过主题选项和页面 Frontmatter 自定义它们。

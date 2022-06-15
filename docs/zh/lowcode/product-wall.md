@@ -1,5 +1,9 @@
 ---
 title: 低代码产品墙
+head:
+  - - meta
+    - name: description
+      content: 低代码产品
 icon: config
 order: 1
 category:
@@ -24,7 +28,7 @@ tag:
     <img src="https://www.aliwork.com/favicon.ico"  title="宜搭"/>
     <span>宜搭</span>
   </a>
-  <a href="https://cloud.tencent.com" class="product-item" target="_blank">
+  <a href="https://cloud.tencent.com/product/weda" class="product-item" target="_blank">
     <img src="https://cloud.tencent.com/favicon.ico"  title="微搭"/>
     <span>微搭</span>
   </a>

@@ -1,5 +1,9 @@
 ---
 home: true
+head:
+  - - meta
+    - name: description
+      content: 涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力。html、js、css、css3、es6、react、vue、RN、flutter、小程序、node.js、nodeJs、ts、typescript、java、spring-boot、spring-cloud、dubbo、MyBatis、go、GO、istio、低代码、面试、知识点、前端指南、后端指北、数据库、MySQL、mysql、mongodb、redis、高可用, 高并发、分布式、微服务、serveless。
 icon: home
 title: 首页
 heroImage: /logo.svg

@@ -147,12 +147,17 @@ export default hopeTheme({
       // provider: "Waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
-
+    feed: {
+      json: true,
+    },
     mdEnhance: {
       enableAll: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
+    },
+    photoSwipe: {
+      selector: "img",
     },
     seo: {
       canonical: site,
