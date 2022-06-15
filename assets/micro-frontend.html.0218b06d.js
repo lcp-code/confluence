@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as r}from"./app.bbaec7f1.js";const c={},n=r("p",null,"\u5FAE\u524D\u7AEF",-1),_=[n];function s(a,l){return o(),t("div",null,_)}var d=e(c,[["render",s],["__file","micro-frontend.html.vue"]]);export{d as default};

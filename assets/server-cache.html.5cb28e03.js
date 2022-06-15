@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as r,c,a as t}from"./app.bbaec7f1.js";const o={},s=t("p",null,"\u670D\u52A1\u7AEF\u7F13\u5B58",-1),_=[s];function a(n,l){return r(),c("div",null,_)}var m=e(o,[["render",a],["__file","server-cache.html.vue"]]);export{m as default};

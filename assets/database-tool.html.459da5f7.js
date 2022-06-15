@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a}from"./app.bbaec7f1.js";const s={},_=a("p",null,"\u6570\u636E\u5E93\u5DE5\u5177",-1),c=[_];function r(l,n){return o(),t("div",null,c)}var i=e(s,[["render",r],["__file","database-tool.html.vue"]]);export{i as default};

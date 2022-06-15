@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.bbaec7f1.js";const _={},a=r("p",null,"\u63D2\u4EF6\u5E02\u573A",-1),c=[a];function n(s,l){return t(),o("div",null,c)}var f=e(_,[["render",n],["__file","plugin-market.html.vue"]]);export{f as default};

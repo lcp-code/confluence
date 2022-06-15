@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as n,a as o}from"./app.bbaec7f1.js";const r={},c=o("p",null,"\u9879\u76EE\u5DE5\u7A0B\u5316",-1),_=[c];function s(a,i){return t(),n("div",null,_)}var m=e(r,[["render",s],["__file","project-engineering.html.vue"]]);export{m as default};
