@@ -7,7 +7,7 @@ head:
 icon: config
 order: 1
 category:
-  - 低码技术
+  - 低码手册
   - 低代码产品墙
 tag:
   - 低代码产品墙

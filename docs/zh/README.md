@@ -20,7 +20,7 @@ actions:
   - text: 后端
     link: /zh/back-end/
 
-  - text: 低码技术
+  - text: 低码手册
     link: /zh/lowcode/
 
   - text: 汇聚墙

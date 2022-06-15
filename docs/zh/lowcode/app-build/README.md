@@ -4,9 +4,9 @@ index: false
 icon: creative
 # 这是侧边栏的顺序
 dir:
-  order: 5
+  order: 6
 category:
-  - 后端指北
+  - 低码手册
   - 应用构建
 ---
 

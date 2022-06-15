@@ -63,7 +63,7 @@ export const zh = sidebar({
       ],
     },
     {
-      text: "低码技术",
+      text: "低码手册",
       icon: "creative",
       prefix: "lowcode/",
       children: ["product-wall/", "pan-architecture"],

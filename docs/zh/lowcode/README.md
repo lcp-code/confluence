@@ -1,9 +1,9 @@
 ---
-title: 低码技术
+title: 低码手册
 index: false
 icon: creative
 category:
-  - 低码技术
+  - 低码手册
 ---
 
-低码技术
+低码手册

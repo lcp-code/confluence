@@ -4,9 +4,9 @@ index: false
 icon: creative
 # 这是侧边栏的顺序
 dir:
-  order: 3
+  order: 4
 category:
-  - 后端指北
+  - 低码手册
   - 行业沉淀
 ---
 

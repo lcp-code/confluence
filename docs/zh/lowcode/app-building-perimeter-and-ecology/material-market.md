@@ -3,7 +3,7 @@ title: 物料市场
 icon: config
 order: 4
 category:
-  - 低码技术
+  - 低码手册
   - 应用构建周边及生态
   - 物料市场
 tag:

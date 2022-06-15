@@ -7,7 +7,7 @@ head:
 icon: config
 order: 2
 category:
-  - 低码技术
+  - 低码手册
   - 低代码体系泛架构
 tag:
   - 低代码体系泛架构
