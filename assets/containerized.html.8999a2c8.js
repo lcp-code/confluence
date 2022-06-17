@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.bbaec7f1.js";const n={},r=c("p",null,"\u5BB9\u5668\u5316",-1),_=[r];function a(s,i){return t(),o("div",null,_)}var f=e(n,[["render",a],["__file","containerized.html.vue"]]);export{f as default};

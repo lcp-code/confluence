@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as r,a as n}from"./app.bbaec7f1.js";const a={},c=n("p",null,"\u63A5\u53E3\u7F16\u6392",-1),o=[c];function _(s,l){return t(),r("div",null,o)}var m=e(a,[["render",_],["__file","interface-arrangement.html.vue"]]);export{m as default};

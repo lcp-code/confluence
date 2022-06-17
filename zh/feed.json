@@ -6,6 +6,340 @@
   "description": "低码爱好者汇集的地方",
   "items": [
     {
+      "title": "开发工具",
+      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool.html",
+      "content_html": "<p>开发工具见<a href=\"/zh/universal/dev-tool/idea.html\">计算机通用/开发工具</a></p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具"
+      ]
+    },
+    {
+      "title": "开发工具",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/",
+      "content_html": "<p>开发工具</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "计算机通用",
+        "开发工具"
+      ]
+    },
+    {
+      "title": "数据库工具",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/database-tool.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/database-tool.html",
+      "content_html": "<p>数据库工具</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "数据库工具"
+      ]
+    },
+    {
+      "title": "Docker",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/docker.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/docker.html",
+      "content_html": "<p>Docker</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "Docker"
+      ]
+    },
+    {
+      "title": "finalshell",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/finalshell.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/finalshell.html",
+      "content_html": "<p>finalshell</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "finalshell"
+      ]
+    },
+    {
+      "title": "Git",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/git.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/git.html",
+      "content_html": "<p>Git</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "Git"
+      ]
+    },
+    {
+      "title": "idea",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/idea.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/idea.html",
+      "content_html": "<p>idea</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "idea"
+      ]
+    },
+    {
+      "title": "k8s",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/k8s.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/k8s.html",
+      "content_html": "<p>k8s</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "k8s"
+      ]
+    },
+    {
+      "title": "数据结构常见问题",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/",
+      "content_html": "<h2 id=\"目录\" tabindex=\"-1\"> 目录</h2>\n<p>数据结构常见问题</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "数据结构",
+        "数据结构常见问题"
+      ]
+    },
+    {
+      "title": "手写debounce、throttle",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/debounce-throttle.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/debounce-throttle.html",
+      "content_html": "<p>防抖是控制次数，节流是控制频率。</p>\n<h3 id=\"debounce-防抖\" tabindex=\"-1\"> <strong>debounce (防抖)</strong></h3>\n<p>防抖就是防止抖动，触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间。一直点击的话，函数会迟迟不执行。<mark>核心思想：防抖是不断创建，又不断清空定时器暂存的过程</mark>。\n使用场景</p>\n<ul>\n<li>输入框搜索</li>\n<li>表单提交</li>\n<li>数据查询</li>\n<li>resize</li>\n</ul>\n<div><pre><code><span>/*\n * 防抖函数\n * @param  {Function}  callback       回调函数\n * @param  {Number}    wait           延迟时间（ms），不传默认400ms\n * @param  {Boolen}    immediate      触发时是否立即执行一次，默认不执行\n * @return {Function}                 返回新的防抖函数\n */</span>\n<span>const</span> <span>debounce</span> <span>=</span> <span>(</span><span>callback<span>,</span> wait <span>=</span> <span>400</span><span>,</span> immediate <span>=</span> <span>false</span></span><span>)</span> <span>=></span> <span>{</span>\n  <span>// timeout实例</span>\n  <span>let</span> timerId<span>;</span>\n  <span>// 函数还需判断</span>\n  <span>if</span> <span>(</span><span>typeof</span> callback <span>!==</span> <span>'function'</span><span>)</span> <span>{</span>\n    <span>throw</span> <span>new</span> <span>TypeError</span><span>(</span><span>'callback 必须是函数'</span><span>)</span><span>;</span>\n  <span>}</span>\n  <span>return</span> <span>function</span><span>(</span><span>)</span> <span>{</span>\n    <span>// 首次触发时是否立即执行</span>\n    <span>if</span> <span>(</span>immediate <span>&amp;&amp;</span> timerId <span>===</span> <span>undefined</span><span>)</span> <span>callback</span><span>.</span><span>apply</span><span>(</span><span>this</span><span>,</span> arguments<span>)</span>\n    <span>// 清掉已有计时器</span>\n    <span>if</span> <span>(</span>timerId<span>)</span> <span>clearTimeout</span><span>(</span>timerId<span>)</span>\n    timerId <span>=</span> <span>setTimeout</span><span>(</span><span>(</span><span>)</span> <span>=></span> <span>{</span>\n      <span>// 外层函数的this和arguments参数</span>\n      <span>callback</span><span>.</span><span>apply</span><span>(</span><span>this</span><span>,</span> arguments<span>)</span>\n      <span>// 执行后将timeout置为undefined</span>\n      timerId <span>=</span> <span>undefined</span>\n    <span>}</span><span>,</span> wait<span>)</span>\n  <span>}</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id=\"throttle-节流\" tabindex=\"-1\"> <strong>throttle（节流）</strong></h3>\n<p>节流指连续触发事件但是在 n 秒中只执行一次函数。一直点击的话，在n秒后函数依然会执行一次。<mark>核心思想：防抖是创建，执行后清空再创建定时器暂存的过程</mark>。时间戳同理。\n使用场景</p>\n<ul>\n<li>scroll</li>\n<li>mousemove</li>\n</ul>\n<div><pre><code><span>/*\n * 节流函数\n * @param  {Function}  callback       回调函数\n * @param  {Number}    wait           延迟时间（ms），不传默认400ms\n * @param  {Boolen}    immediate      触发时是否立即执行第一次，默认不执行\n * @return {Function}                 返回新的节流函数\n */</span>\n<span>const</span> <span>throttle</span> <span>=</span> <span>(</span><span>callback<span>,</span> wait <span>=</span> <span>400</span><span>,</span> immediate <span>=</span> <span>false</span></span><span>)</span> <span>=></span> <span>{</span>\n  <span>// timeout实例</span>\n  <span>let</span> timerId<span>;</span>\n  <span>// 函数还需判断</span>\n  <span>if</span> <span>(</span><span>typeof</span> callback <span>!==</span> <span>'function'</span><span>)</span> <span>{</span>\n    <span>throw</span> <span>new</span> <span>TypeError</span><span>(</span><span>'callback 必须是函数'</span><span>)</span><span>;</span>\n  <span>}</span>\n  <span>return</span> <span>function</span><span>(</span><span>)</span> <span>{</span>\n    <span>// 方便调试immediate效果，打印immediate</span>\n    console<span>.</span><span>log</span><span>(</span><span>\"immediate\"</span><span>,</span> immediate<span>)</span><span>;</span>\n    <span>// 第一次触发时是否立即执行</span>\n    <span>if</span> <span>(</span>immediate <span>&amp;&amp;</span> timerId <span>===</span> <span>undefined</span><span>)</span> <span>{</span>\n      <span>// 立即执行</span>\n      <span>callback</span><span>.</span><span>apply</span><span>(</span><span>this</span><span>,</span> arguments<span>)</span>\n      <span>// 执行后立即关闭</span>\n      immediate <span>=</span> <span>false</span>\n    <span>}</span>\n    <span>if</span> <span>(</span>timerId <span>===</span> <span>undefined</span><span>)</span> <span>{</span>\n      timerId <span>=</span> <span>setTimeout</span><span>(</span><span>(</span><span>)</span> <span>=></span> <span>{</span>\n        <span>// 外层函数的this和arguments对象</span>\n        <span>callback</span><span>.</span><span>apply</span><span>(</span><span>this</span><span>,</span> arguments<span>)</span>\n        <span>// 执行后将timeout置为undefined</span>\n        timerId <span>=</span> <span>undefined</span>\n      <span>}</span><span>,</span> wait<span>)</span>\n    <span>}</span>\n  <span>}</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id=\"测试代码\" tabindex=\"-1\"> <strong>测试代码</strong></h3>\n<div><pre><code><span>// 节流测试代码</span>\n<span>const</span> <span>sleep</span> <span>=</span> <span>async</span> <span>(</span><span>time</span><span>)</span> <span>=></span> <span>{</span>\n  <span>return</span> <span>new</span> <span>Promise</span><span>(</span><span>(</span><span>resolve<span>,</span> reject</span><span>)</span> <span>=></span> <span>{</span>\n    <span>setTimeout</span><span>(</span><span>(</span><span>)</span> <span>=></span> <span>{</span>\n      <span>resolve</span><span>(</span><span>)</span><span>;</span>\n    <span>}</span><span>,</span> time<span>)</span><span>;</span>\n  <span>}</span><span>)</span><span>;</span>\n<span>}</span><span>;</span>\n<span>const</span> consoleTest <span>=</span> <span>throttle</span><span>(</span>\n  <span>async</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>\n    console<span>.</span><span>log</span><span>(</span><span>+</span><span>new</span> <span>Date</span><span>(</span><span>)</span><span>)</span><span>;</span>\n  <span>}</span><span>,</span>\n  <span>400</span><span>,</span>\n  <span>true</span>\n<span>)</span><span>;</span>\n<span>const</span> <span>test</span> <span>=</span> <span>async</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>\n  <span>for</span> <span>(</span><span>let</span> i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>10</span><span>;</span> i<span>++</span><span>)</span> <span>{</span>\n    <span>// 模拟间隔100ms点击</span>\n    <span>await</span> <span>sleep</span><span>(</span><span>100</span><span>)</span><span>;</span>\n    <span>consoleTest</span><span>(</span><span>)</span><span>;</span>\n  <span>}</span>\n<span>}</span><span>;</span>\n<span>test</span><span>(</span><span>)</span><span>;</span>\n<span>// 防抖的调试代码可以参考此代码</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>虽然大概意思实现了，但是在生产环境建议使用underscore或lodash，他们考虑了更加完整的情况，如cancel、flush、函数判断等。</p>\n<p>参考</p>\n<ul>\n<li>underscore的实现 <a href=\"https://github.com/jashkenas/underscore\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/jashkenas/underscore</a></li>\n<li>lodash的实现 <a href=\"https://github.com/lodash/lodash\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/lodash/lodash</a></li>\n<li><a href=\"https://www.jianshu.com/p/c8b86b09daf0\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.jianshu.com/p/c8b86b09daf0</a></li>\n<li><a href=\"https://juejin.cn/post/7032905194736189477\" target=\"_blank\" rel=\"noopener noreferrer\">https://juejin.cn/post/7032905194736189477</a></li>\n<li><a href=\"https://github.com/mqyqingfeng/Blog/issues/22\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/mqyqingfeng/Blog/issues/22</a></li>\n<li><a href=\"https://github.com/mqyqingfeng/Blog/issues/26\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/mqyqingfeng/Blog/issues/26</a></li>\n</ul>\n<p>相关文章推荐</p>\n<ul>\n<li><a href=\"/zh/universal/data-structure/faq/get-type.html\">js数据类型判断的几种方式</a></li>\n<li><a href=\"/zh/universal/data-structure/faq/deep-clone.html\">深拷贝deepClone详解</a></li>\n</ul>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "数据结构",
+        "数据结构常见问题",
+        "手写debounce、throttle"
+      ]
+    },
+    {
+      "title": "深拷贝deepClone详解",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/deep-clone.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/deep-clone.html",
+      "content_html": "<p>在上一篇已经讲了深复制和浅复制的区别，就是引用复制和值复制的区别。见<a href=\"/zh/universal/data-structure/linear/array.html\">数组</a>。</p>\n<ul>\n<li>基本数据类型的特点：数据直接存储在栈(stack)内存中</li>\n<li>引用数据类型的特点：在栈中存储的是该对象引用，真实的数据存放在堆内存里</li>\n</ul>\n<h3 id=\"实现方式一-借助json方法-不能深拷贝函数\" tabindex=\"-1\"> <strong>实现方式一：借助JSON方法，不能深拷贝函数</strong></h3>\n<p>JSON.stringify()：用于将 JavaScript 值转换为 JSON 字符串\nJSON.parse()：用于将一个 JSON 字符串转换为对象。</p>\n<div><pre><code><span>let</span> arr1 <span>=</span> <span>[</span><span>{</span> <span>value</span><span>:</span> <span>1</span><span>}</span><span>,</span> <span>{</span> <span>value</span><span>:</span> <span>2</span><span>}</span><span>,</span> <span>'str'</span><span>]</span><span>;</span>\n<span>let</span> arr2 <span>=</span> <span>JSON</span><span>.</span><span>parse</span><span>(</span><span>JSON</span><span>.</span><span>stringify</span><span>(</span>arr1<span>)</span><span>)</span><span>;</span>\narr1<span>[</span><span>0</span><span>]</span><span>.</span>value <span>=</span> <span>3</span><span>;</span>\nconsole<span>.</span><span>log</span><span>(</span>arr1<span>)</span> <span>// [{ value: 3}, { value: 2}, 'str']</span>\nconsole<span>.</span><span>log</span><span>(</span>arr2<span>)</span> <span>// [{ value: 1}, { value: 2}, 'str']</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div></div></div><h3 id=\"实现方式二-手写函数实现\" tabindex=\"-1\"> <strong>实现方式二：手写函数实现</strong></h3>\n<p>要深拷贝实现值复制，就是不得不判断值的类型（getType见<a href=\"/zh/universal/data-structure/faq/get-type.html\">类型判断的几种方式</a>），以进一步选择赋值方式。<mark>核心思想：递归遍历数组、对象做值复制</mark></p>\n<ul>\n<li>非引用复制，直接赋值</li>\n<li>引用赋值，遍历递归赋值</li>\n</ul>\n<div><pre><code><span>const</span> <span>deepClone</span> <span>=</span> <span>(</span><span>data</span><span>)</span> <span>=></span> <span>{</span>\n  <span>let</span> type <span>=</span> <span>getType</span><span>(</span>data<span>)</span><span>;</span>\n  <span>let</span> tempValue<span>;</span>\n  <span>if</span><span>(</span><span>!</span><span>(</span>type <span>===</span> <span>'array'</span> <span>||</span> type <span>===</span> <span>'object'</span><span>)</span><span>)</span> <span>return</span> data<span>;</span>\n  <span>if</span><span>(</span>type <span>===</span> <span>'array'</span><span>)</span> <span>{</span>\n    tempValue <span>=</span> <span>[</span><span>]</span><span>;</span>\n    data<span>.</span><span>forEach</span><span>(</span><span>(</span><span>item</span><span>)</span> <span>=></span> <span>{</span>\n      tempValue<span>.</span><span>push</span><span>(</span><span>deepClone</span><span>(</span>item<span>)</span><span>)</span><span>;</span>\n    <span>}</span><span>)</span>\n    <span>return</span> tempValue<span>;</span>\n  <span>}</span> <span>else</span> <span>if</span><span>(</span>type <span>===</span> <span>'object'</span><span>)</span> <span>{</span>\n    tempValue <span>=</span> <span>{</span><span>}</span><span>;</span>\n    <span>for</span><span>(</span><span>const</span> key <span>in</span> data<span>)</span> <span>{</span>\n      <span>if</span> <span>(</span>data<span>.</span><span>hasOwnProperty</span><span>(</span>key<span>)</span><span>)</span> <span>{</span>\n        tempValue<span>[</span>key<span>]</span> <span>=</span> <span>deepClone</span><span>(</span>data<span>[</span>key<span>]</span><span>)</span><span>;</span>\n      <span>}</span>\n    <span>}</span>\n    <span>return</span> tempValue<span>;</span>\n  <span>}</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>虽然大概意思实现了，但是在生产环境建议使用underscore或lodash，他们考虑了更加完整的情况，比如function、Map、Set的处理等。</p>\n<p>附加浅拷贝的实现方式</p>\n<ul>\n<li>Object.assign</li>\n<li>Array.prototype.concat</li>\n<li>Array.prototype.slice</li>\n</ul>\n<p>参考</p>\n<ul>\n<li>underscore的实现 <a href=\"https://github.com/jashkenas/underscore\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/jashkenas/underscore</a></li>\n<li>lodash的实现 <a href=\"https://github.com/lodash/lodash\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/lodash/lodash</a></li>\n<li><a href=\"https://zhuanlan.zhihu.com/p/56741046\" target=\"_blank\" rel=\"noopener noreferrer\">https://zhuanlan.zhihu.com/p/56741046</a></li>\n</ul>\n<p>相关文章推荐</p>\n<ul>\n<li><a href=\"/zh/universal/data-structure/faq/get-type.html\">js数据类型判断的几种方式</a></li>\n<li><a href=\"/zh/universal/data-structure/faq/debounce-throttle.html\">手写debounce、throttle</a></li>\n</ul>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "数据结构",
+        "数据结构常见问题",
+        "深拷贝deepClone详解"
+      ]
+    },
+    {
+      "title": "js数据类型判断的几种方式",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/get-type.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/data-structure/faq/get-type.html",
+      "content_html": "<p>js数据类型判断的几种方式，<mark>推荐第四种，最全最准确</mark></p>\n<h3 id=\"实现方式一-使用typeof\" tabindex=\"-1\"> <strong>实现方式一：使用typeof</strong></h3>\n<p>仅能返回几种判断类型：string，number，bigint，boolean，undefined，object，function，symbol</p>\n<div><pre><code><span>const</span> <span>getType</span> <span>=</span> <span>(</span><span>value</span><span>)</span> <span>=></span> <span>{</span>\n    <span>return</span> <span>typeof</span> value<span>;</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div></div></div><h3 id=\"实现方式一-使用instanceof\" tabindex=\"-1\"> <strong>实现方式一：使用instanceof</strong></h3>\n<p>判断一个实例是否属于某种类型：如：Object，Array，Function，Date，RegExp，构造函数的实例、类的实例等。\n主要是通过原型链来判断：只要右边变量的 prototype 在左边变量的原型链上即可。</p>\n<div><pre><code><span>const</span> <span>getType</span> <span>=</span> <span>(</span><span>value1<span>,</span> Type</span><span>)</span> <span>=></span> <span>{</span>\n    <span>return</span> value1 <span>instanceof</span> <span>Type</span><span>;</span>\n<span>}</span>\n\n<span>// 简单实现一个instanceof</span>\n<span>const</span> <span>myInstanceof</span> <span>=</span> <span>(</span><span>left<span>,</span> right</span><span>)</span> <span>=></span> <span>{</span>\n    <span>// 左侧参数非对象直接返回false</span>\n    <span>if</span> <span>(</span><span>Object</span><span>(</span>left<span>)</span> <span>!==</span> left<span>)</span> <span>return</span> <span>false</span><span>;</span>\n    <span>const</span> rightType <span>=</span> <span>typeof</span> right\n    <span>// 对于右侧参数可以认为只能为函数或对象且不能没有Prototype属性</span>\n    <span>if</span> <span>(</span><span>(</span>rightType <span>!==</span> <span>'function'</span> <span>||</span> rightType <span>!==</span> <span>'object'</span><span>)</span> <span>||</span> <span>!</span>right<span>.</span>prototype<span>)</span> <span>throw</span> <span>new</span> <span>TypeError</span><span>(</span><span>\"Right-hand side of 'instanceof' is not an object\"</span><span>)</span><span>;</span>\n    <span>const</span> rightPrototype <span>=</span> right<span>.</span>prototype<span>;</span>\n    <span>let</span> leftProto <span>=</span> left<span>.</span>__proto__<span>;</span>\n    <span>while</span><span>(</span><span>true</span><span>)</span> <span>{</span>\n        <span>if</span> <span>(</span>left <span>===</span> <span>null</span><span>)</span> <span>return</span> <span>false</span><span>;</span>\n        <span>if</span> <span>(</span>leftProto <span>===</span> rightPrototype<span>)</span> <span>return</span> <span>true</span><span>;</span>\n        leftProto <span>=</span> leftProto<span>.</span>__proto__<span>;</span> <span>// 遍历左边原型链，直到找到右边的prototype</span>\n    <span>}</span>\n <span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id=\"实现方式三-使用constructor\" tabindex=\"-1\"> <strong>实现方式三：使用constructor</strong></h3>\n<p>有构造函数的类型都可以通过此判断，稳定性不足。\n注意点：</p>\n<ul>\n<li>纯数字、null、undefined是不可以的</li>\n<li>重写prototype后，constructor会默认为Object</li>\n</ul>\n<div><pre><code><span>const</span> <span>getType</span> <span>=</span> <span>(</span><span>value</span><span>)</span> <span>=></span> <span>{</span>\n  <span>const</span> type <span>=</span> <span>typeof</span> value<span>;</span>\n  <span>if</span> <span>(</span>type <span>===</span> <span>'undefined'</span> <span>||</span> type <span>===</span> <span>'number'</span> <span>||</span> value <span>===</span> <span>null</span><span>)</span> <span>return</span> type<span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> String<span>)</span> <span>return</span> <span>'string'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Boolean<span>)</span> <span>return</span> <span>'boolean'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Object<span>)</span> <span>return</span> <span>'object'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Function<span>)</span> <span>return</span> <span>'function'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> AsyncFunction<span>)</span> <span>return</span> <span>'asyncFunction'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> GeneratorFunction<span>)</span> <span>return</span> <span>'generatorFunction'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Symbol<span>)</span> <span>return</span> <span>'symbol'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Array<span>)</span> <span>return</span> <span>'array'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Date<span>)</span> <span>return</span> <span>'date'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> RegExp<span>)</span> <span>return</span> <span>'regExp'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Map<span>)</span> <span>return</span> <span>'map'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> WeakMap<span>)</span> <span>return</span> <span>'weakMap'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Set<span>)</span> <span>return</span> <span>'set'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> WeakSet<span>)</span> <span>return</span> <span>'weakSet'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Blob<span>)</span> <span>return</span> <span>'blob'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Uint8Array<span>)</span> <span>return</span> <span>'uint8Array'</span><span>;</span>\n  <span>if</span> <span>(</span>value<span>.</span>constructor <span>===</span> Error<span>)</span> <span>return</span> <span>'error'</span><span>;</span>\n  <span>//   还有更多</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id=\"实现方式四-使用object-prototype-tostring-call\" tabindex=\"-1\"> <strong>实现方式四：使用Object.prototype.toString.call</strong></h3>\n<p>Object.prototype.toString.call(value) 的返回格式为[object,Type]，Type是具体的数据类型。</p>\n<div><pre><code><span>const</span> <span>getType</span> <span>=</span> <span>(</span><span>value</span><span>)</span> <span>=></span> <span>{</span>\n  <span>//   枚举部分类型</span>\n  <span>//   const map = {</span>\n  <span>//     '[object String]': 'string',</span>\n  <span>//     '[object Number]': 'number'</span>\n  <span>//     '[object Boolean]': 'boolean',</span>\n  <span>//     '[object Undefined]': 'undefined',</span>\n  <span>//     '[object Object]': 'object',</span>\n  <span>//     '[object Function]': 'function',</span>\n  <span>//     '[object AsyncFunction]': 'asyncFunction',</span>\n  <span>//     '[object GeneratorFunction]': 'generatorFunction',</span>\n  <span>//     '[object Symbol]': 'symbol',</span>\n  <span>//     '[object Null]': 'null',</span>\n  <span>//     '[object Array]': 'array',</span>\n  <span>//     '[object Date]': 'date',</span>\n  <span>//     '[object RegExp]': 'regExp',</span>\n  <span>//     '[object Map]': 'map',</span>\n  <span>//     '[object WeakMap]': 'weakMap',</span>\n  <span>//     '[object Set]': 'set',</span>\n  <span>//     '[object WeakSet]': 'weakSet',</span>\n  <span>//     '[object Blob]': 'blob',</span>\n  <span>//     '[object HTMLDocument]': 'document',</span>\n  <span>//     '[object Uint8Array]': 'uint8Array',</span>\n  <span>//     '[object Error]': 'error'</span>\n  <span>//   };</span>\n  <span>//   还有更多</span>\n  <span>return</span> <span>Object</span><span>.</span>prototype<span>.</span><span>toString</span><span>.</span><span>call</span><span>(</span>value<span>)</span><span>.</span><span>replace</span><span>(</span><span><span>/</span><span>^\\[object (\\S+)\\]$</span><span>/</span></span><span>,</span> <span>'$1'</span><span>)</span><span>.</span><span>toLowerCase</span><span>(</span><span>)</span><span>;</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>参考</p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof\" target=\"_blank\" rel=\"noopener noreferrer\">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof</a></li>\n<li><a href=\"https://blog.csdn.net/mozuncangtianbaxue/article/details/77151598\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/mozuncangtianbaxue/article/details/77151598</a></li>\n<li><a href=\"https://juejin.cn/post/6844903613584654344\" target=\"_blank\" rel=\"noopener noreferrer\">https://juejin.cn/post/6844903613584654344</a></li>\n</ul>\n<p>相关文章推荐</p>\n<ul>\n<li><a href=\"/zh/universal/data-structure/faq/deep-clone.html\">深拷贝deepClone详解</a></li>\n<li><a href=\"/zh/universal/data-structure/faq/debounce-throttle.html\">手写debounce、throttle</a></li>\n</ul>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "数据结构",
+        "数据结构常见问题",
+        "js数据类型判断的几种方式"
+      ]
+    },
+    {
+      "title": "vscode",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/vscode/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/vscode/",
+      "content_html": "<p>vscode</p>\n",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "计算机通用",
+        "开发工具",
+        "vscode"
+      ]
+    },
+    {
+      "title": "VScode 插件路径修改",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/vscode/extensions-path.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/dev-tool/vscode/extensions-path.html",
+      "content_html": "<p>vscode插件默认的安装位置是</p>\n<div><pre><code>C:\\Users\\用户名\\.vscode\\extensions\n</code></pre><div aria-hidden=\"true\"><div></div></div></div><p>看着C盘空间越来越少，忍不了要把默认插件安装位置迁出C盘。有两种方式来修改默认路径，<mark>推荐第一种，第二种有坑</mark></p>\n<p><strong>第一种</strong>：</p>\n<p>用管理员身份打开cmd，执行如下命令。usename改成你自己的，extensions地址改成自己要放的目录。\n格式：mklink /D 要link的地址  extensions地址</p>\n<div><pre><code>mklink /D \"C:\\Users\\{username}\\.vscode\\extensions\" \"D:\\programFiles\\programSoftware\\vscode-extensions\"\n</code></pre><div aria-hidden=\"true\"><div></div></div></div><p>划重点：\nC:\\Users{username}.vscode\\extensions不能已存在，否则link不成功。</p>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path1.png\" alt=\"\" loading=\"lazy\">\n执行后效果如此，则已生效。</p>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path5.png\" alt=\"\" loading=\"lazy\"></p>\n<p>这样你就可以在<strong>多处使用</strong></p>\n<h4 id=\"直接快捷键使用\" tabindex=\"-1\"> 直接快捷键使用</h4>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path2.png\" alt=\"\" loading=\"lazy\"></p>\n<h4 id=\"右键打开使用\" tabindex=\"-1\"> 右键打开使用</h4>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path3.png\" alt=\"\" loading=\"lazy\"></p>\n<p><strong>第二种</strong>：</p>\n<p>找到 vscode的快捷方式的图标，将目标 加入</p>\n<p>--extensions-dir &quot;D:\\programFiles\\programSoftware\\vscode-extensions&quot;</p>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path4.png\" alt=\"\" loading=\"lazy\"></p>\n<p><mark>缺点就是你只能用 直接快捷键 使用，否则无效。</mark></p>\n<h4 id=\"直接快捷键使用-1\" tabindex=\"-1\"> 直接快捷键使用</h4>\n<p><img src=\"https://oss.uuyang.cn/confluence/extensions-path2.png\" alt=\"\" loading=\"lazy\"></p>\n",
+      "image": "https://oss.uuyang.cn/confluence/extensions-path1.png",
+      "date_published": "2022-06-17T03:57:30.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
+      "authors": [],
+      "tags": [
+        "后端指北",
+        "开发工具",
+        "vscode",
+        "VScode 插件路径修改"
+      ]
+    },
+    {
+      "title": "低代码产品经理练成手册",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/",
+      "content_html": "<p>低代码产品经理练成手册</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理练成手册"
+      ]
+    },
+    {
+      "title": "闲逛，了然于胸",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/competitive-analysis.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/competitive-analysis.html",
+      "content_html": "<p>闲逛，了然于胸</p>\n<p>市场分析输出竞品分析报告</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "闲逛，了然于胸"
+      ]
+    },
+    {
+      "title": "数据驱动，超越自我",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/data-driven-beyond-yourself.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/data-driven-beyond-yourself.html",
+      "content_html": "<p>数据驱动，超越自我</p>\n<p>分析产品的用户使用数据，产品成则己成</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "数据驱动，超越自我"
+      ]
+    },
+    {
+      "title": "采药，品味，炼制计划",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/determine-the-product-realization-path.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/determine-the-product-realization-path.html",
+      "content_html": "<p>采药，品味，炼制计划</p>\n<p>辨别用户真实需求，确定好产品定位，做产品规划</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "采药，品味，炼制计划"
+      ]
+    },
+    {
+      "title": "三维够不",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/multidimensional-capabilities.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/multidimensional-capabilities.html",
+      "content_html": "<p>三维够不</p>\n<p>用户思维、逻辑思维、商业思维、协调能力、抗压能力</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "三维够不"
+      ]
+    },
+    {
+      "title": "反复提炼，上品",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/optimize-products.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/optimize-products.html",
+      "content_html": "<p>反复提炼，上品</p>\n<p>持续迭代优化产品</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "反复提炼，上品"
+      ]
+    },
+    {
+      "title": "炼制细节，成药",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/product-implementation-detailed-documentation.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/product-implementation-detailed-documentation.html",
+      "content_html": "<p>炼制细节，成药</p>\n<p>产品实施详细文档</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "炼制细节，成药"
+      ]
+    },
+    {
+      "title": "画骨，布道",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/product-structure-presentation.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/product-structure-presentation.html",
+      "content_html": "<p>画骨，布道</p>\n<p>做出产品骨架，宣讲构想，让团队摸得着轮廓</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "画骨，布道"
+      ]
+    },
+    {
+      "title": "画皮，轮廓走向饱满",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/prototyping.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/prototyping.html",
+      "content_html": "<p>画皮，轮廓走向饱满</p>\n<p>产品原型稿面世</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "画皮，轮廓走向饱满"
+      ]
+    },
+    {
+      "title": "看看产品经理在干啥",
+      "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/what-is-the-manager-doing.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-product-manager-training-manual/what-is-the-manager-doing.html",
+      "content_html": "<p>看看产品经理在干啥</p>\n<p>产品经理是什么，他能干啥</p>\n",
+      "date_published": "2022-06-15T16:51:17.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
+      "authors": [],
+      "tags": [
+        "低码手册",
+        "低代码产品经理经理练成手册",
+        "看看产品经理在干啥"
+      ]
+    },
+    {
       "title": "幻灯片页",
       "url": "https://confluence.uuyang.cn/confluence/zh/slide.html",
       "id": "https://confluence.uuyang.cn/confluence/zh/slide.html",
@@ -185,9 +519,9 @@
       "title": "开发工具",
       "url": "https://confluence.uuyang.cn/confluence/zh/front-end/dev-tool.html",
       "id": "https://confluence.uuyang.cn/confluence/zh/front-end/dev-tool.html",
-      "content_html": "<p>开发工具</p>\n",
+      "content_html": "<p>开发工具见<a href=\"/zh/universal/dev-tool/vscode/extensions-path.html\">计算机通用/开发工具</a></p>\n",
       "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
       "authors": [],
       "tags": [
         "前端指南",
@@ -275,27 +609,27 @@
       ]
     },
     {
-      "title": "低码技术",
+      "title": "低码手册",
       "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/",
       "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/",
-      "content_html": "<p>低码技术</p>\n",
+      "content_html": "<p>低码手册</p>\n",
       "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
       "authors": [],
       "tags": [
-        "低码技术"
+        "低码手册"
       ]
     },
     {
       "title": "低代码体系泛架构",
       "url": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-system-pan-architecture.html",
       "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/low-code-system-pan-architecture.html",
-      "content_html": "<p>低代码体系泛架构</p>\n<img src=\"/images/泛架构.png\" title=\"泛架构\"/>",
+      "content_html": "<p>低代码体系泛架构</p>\n<img src=\"https://oss.uuyang.cn/confluence/泛架构.png\" title=\"泛架构\"/>",
       "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-15T15:24:13.000Z",
+      "date_modified": "2022-06-17T03:57:30.000Z",
       "authors": [],
       "tags": [
-        "低码技术",
+        "低码手册",
         "低代码体系泛架构"
       ]
     },
@@ -305,10 +639,10 @@
       "id": "https://confluence.uuyang.cn/confluence/zh/lowcode/product-wall.html",
       "content_html": "<p>低代码产品墙, 仅展示部分，排名不分先后，欢迎上墙！</p>\n<div>\n  <a href=\"https://www.outsystems.com\" target=\"_blank\">\n    <img src=\"https://www.outsystems.com/-/media/project/website/outsystems/oslogored.png?updated=20180625172733\"  title=\"OutSystems\"/>\n    <span>OutSystems</span>\n  </a>\n  <a href=\"https://www.mendix.com\" target=\"_blank\">\n    <img src=\"https://files.chinaasaservice.com/3233/3752300/favicon-196x196.png\"  title=\"Mendix\"/>\n    <span>Mendix</span>\n  </a>\n  <a href=\"https://www.aliwork.com\" target=\"_blank\">\n    <img src=\"https://www.aliwork.com/favicon.ico\"  title=\"宜搭\"/>\n    <span>宜搭</span>\n  </a>\n  <a href=\"https://cloud.tencent.com/product/weda\" target=\"_blank\">\n    <img src=\"https://cloud.tencent.com/favicon.ico\"  title=\"微搭\"/>\n    <span>微搭</span>\n  </a>\n  <a href=\"https://powerapps.microsoft.com/zh-cn/\" target=\"_blank\">\n    <img src=\"https://pwrappscdn.azureedge.net/cvt-90cdaf487716184e4034000935c605d1633926d348116d198f355a98b8c6cd21/favicon.ico\"  title=\"Power Apps\"/>\n    <span>Power Apps</span>\n  </a>\n  <a href=\"https://www.salesforce.com/\" target=\"_blank\">\n    <img src=\"https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\"  title=\"salesforce\"/>\n    <span>salesforce</span>\n  </a>\n  <a href=\"https://suda.baidu.com\" target=\"_blank\">\n    <img src=\"https://suda.baidu.com/resources/upload/1b581d0bca2f/1596783141418.png\"  title=\"爱速搭\"/>\n    <span>爱速搭</span>\n  </a>\n  <a href=\"https://qingflow.com\" target=\"_blank\">\n    <img src=\"https://qingflow.com/favicon.ico\"  title=\"轻流\"/>\n    <span>轻流</span>\n  </a>\n  <a href=\"https://www.jiandaoyun.com\" target=\"_blank\">\n    <img src=\"https://www.jiandaoyun.com/favicon.ico\"  title=\"简道云\"/>\n    <span>简道云</span>\n  </a>\n  <a href=\"https://www.mingdao.com\" target=\"_blank\">\n    <img src=\"https://www.mingdao.com/favicon.png\"  title=\"明道云\"/>\n    <span>明道云</span>\n  </a>\n  <a href=\"https://bitable.feishu.cn/\" target=\"_blank\">\n    <img src=\"https://p1-hera.byteimg.com/tos-cn-i-jbbdkfciu3/a0a0dca11b1741cd9f3a03d6e2f54b0b~tplv-jbbdkfciu3-image:0:0.image\"  title=\"飞书多维表格\"/>\n    <span>飞书多维表格</span>\n  </a>\n  <a href=\"https://www.landray.com.cn/\" target=\"_blank\">\n    <img src=\"http://www.landray.com.cn/favicon.ico\"  title=\"蓝凌\"/>\n    <span>蓝凌</span>\n  </a>\n  <a href=\"https://h3yun.com/\" target=\"_blank\">\n    <img src=\"https://h3yun.com/favicon.ico\"  title=\"氚云\"/>\n    <span>氚云</span>\n  </a>\n  <a href=\"https://www.huoban.com\" target=\"_blank\">\n    <img src=\"https://www.huoban.com/favicon.ico?v=2.0\"  title=\"伙伴云\"/>\n    <span>伙伴云</span>\n  </a>\n  <a href=\"https://vika.cn/\" target=\"_blank\">\n    <img src=\"https://s4.vika.cn/web_build/favicon.ico\"  title=\"维格表\"/>\n    <span>维格表</span>\n  </a>\n  <a href=\"https://definesys.cn/product/\" target=\"_blank\">\n    <img src=\"https://p1-hera.byteimg.com/tos-cn-i-jbbdkfciu3/a0a0dca11b1741cd9f3a03d6e2f54b0b~tplv-jbbdkfciu3-image:0:0.image\"  title=\"得帆云\"/>\n    <span>得帆云</span>\n  </a>\n  <a href=\"https://www.clickpaas.com/\" target=\"_blank\">\n    <img src=\"https://user-assets.sxlcdn.com/images/727095/FvUtOrA_zI54-VOulih3TMZDnLc4.png?imageMogr2/strip/auto-orient/thumbnail/64x64>/format/png\"  title=\"ClickPaaS\"/>\n    <span>ClickPaaS</span>\n  </a>\n  <a href=\"https://www.grapecity.com.cn/solutions/huozige\" target=\"_blank\">\n    <img src=\"https://www.grapecity.com.cn/en/favicon/favicon-32x32.png\"  title=\"活字格\"/>\n    <span>活字格</span>\n  </a>\n  <a href=\"https://www.apicloud.com\" target=\"_blank\">\n    <img src=\"https://www.apicloud.com/img/favicon.png\"  title=\"APICloud\"/>\n    <span>APICloud</span>\n  </a>\n  <a href=\"https://www.huaweicloud.com/product/appcube.html\" target=\"_blank\">\n    <img src=\"https://res-static1.huaweicloud.com/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/images/global/favicon.ico?sttl=1635751734368\"  title=\"应用魔方\"/>\n    <span>应用魔方</span>\n  </a>\n  <a href=\"https://bubble.io/\" target=\"_blank\">\n    <img src=\"https://dd7tel2830j4w.cloudfront.net/f1531946819200x747478706762194600/Bubble logo.svg\"  title=\"bubble\"/>\n    <span>bubble</span>\n  </a>\n  \n  <a href=\"https://www.ivx.cn\" target=\"_blank\">\n    <img src=\"https://www.ivx.cn/favicon.ico\"  title=\"IVX\"/>\n    <span>IVX</span>\n  </a>\n  <a href=\"https://sf.163.com\" target=\"_blank\">\n    <img src=\"https://sf.163.com/favicon.ico\"  title=\"网易轻舟\"/>\n    <span>网易轻舟</span>\n  </a>\n  <a href=\"https://www.newdao.net\" target=\"_blank\">\n    <img src=\"https://www.newdao.net/favicon.ico\"  title=\"牛刀\"/>\n    <span>牛刀</span>\n  </a>\n  <a href=\"https://www.sdata1010.cn\" target=\"_blank\">\n    <img src=\"https://www.sdata1010.cn/favicon.ico\"  title=\"数睿数据\"/>\n    <span>数睿数据</span>\n  </a>\n  <a href=\"https://www.kingdee.com/products/cosmic_platform.html\" target=\"_blank\">\n    <img src=\"https://www.kingdee.com/r/cms/www/default/v0.1/images/finance/favicon.ico\"  title=\"金蝶云苍芎\"/>\n    <span>金蝶云苍芎</span>\n  </a>\n  <a href=\"https://www.awspaas.com\" target=\"_blank\">\n    <img src=\"https://www.awspaas.com/images/favicon.ico\"  title=\"AWS PaaS\"/>\n    <span>AWS PaaS</span>\n  </a>\n  <a href=\"http://xunkukeji.com\" target=\"_blank\">\n    <img src=\"http://xunkukeji.com/favicon.ico\"  title=\"企搭搭\"/>\n    <span>企搭搭</span>\n  </a>\n  <a href=\"https://www.seatable.cn\" target=\"_blank\">\n    <img src=\"https://www.seatable.cn/media/img/logo.png\"  title=\"seatable\"/>\n    <span>seatable</span>\n  </a>\n  <a href=\"https://www.aliyun.com/product/emas\" target=\"_blank\">\n    <img src=\"https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico\"  title=\"Mobi\"/>\n    <span>Mobi</span>\n  </a>\n  <a href=\"https://www.inspur.com/lcjtww/2315499/2318933/2319221/2319483/2482456/index.html\" target=\"_blank\">\n    <img src=\"http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png\"  title=\"\"/>\n    <span>浪潮iGIX</span>\n  </a>\n  <a href=\"http://www.primeton.com/products/sc/\" target=\"_blank\">\n    <img src=\"http://www.primeton.com/images/logo.png\"  title=\"\"/>\n    <span>普元</span>\n  </a>\n  <a href=\"https://www.bnocode.com/\" target=\"_blank\">\n    <img src=\"https://www.bnocode.com/public/image/favicon.ico\"  title=\"白玛\"/>\n    <span>白玛</span>\n  </a>\n  <a href=\"https://www.steedos.com/\" target=\"_blank\">\n    <img src=\"https://www.steedos.com/img/logo-platform.png\"  title=\"华炎魔方\"/>\n    <span>华炎魔方</span>\n  </a>\n  <a href=\"http://www.yindangu.com/\" target=\"_blank\">\n    <img src=\"http://www.yindangu.com/itop/resources/yindangu_officialwebsite_2rGLpmY.png\"  title=\"\"/>\n    <span>银弹谷</span>\n  </a>\n  <a href=\"https://laiye.com\" target=\"_blank\">\n    <img src=\"https://laiye.com/favicon.ico\"  title=\"来也\"/>\n    <span>来也</span>\n  </a>\n  <a href=\"https://aisuda.bce.baidu.com/amis/zh-CN/docs/index\" target=\"_blank\">\n    <img src=\"https://aisuda.bce.baidu.com/amis/static/logo_408c434.png\"  title=\"amis\"/>\n    <span>amis</span>\n  </a>\n  <a href=\"https://www.queshu.cn\" target=\"_blank\">\n    <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAcCAYAAAA9UNxEAAAFSElEQVRYhd3YT2jlVxUH8M997yWZ/JlMZppOqRbNgCCVqoGCtaI0Qa24qJ0uFBS004Wg76F2QGrRxSSKm6LEignSLpyCli4sU0SLu0Ra24Wg6VQXLdRmhNoupuOMjs3M5OVdF/f3y/zy3i8vmWRmCH7hx/vdc+7vvvO955x77r0h1rXjIziBX+I7HdorQQsRP487GuZqIYSgUiL/Pt6Fh9C4viZde9Ta2vfgM4X2j/Eafr/B91V8AXeIbhGs4o3sm5N4Ec2ravEO0U74h23tPjyOe/HnNt09eFjV7d7RZzkwEOnHKjgj+pfgGH519U3fHooh3cAHS/rcgkcxmrV7pHB/WvAxZ/T5wKd56GkOfYKzWa9VB/QN3Gz4xt2RwBlywgfxtS79Po6fZu+fxQ/QI+ACbryV993J6PtZlharwZHT9t98t1rvk9fI9m0hD+mv4LbSHjF7+KLg74JPoReJ2E144XH+tsC5V7gBg/ubhka/TvyjuKscrIL34MFSbQjU+ugbYM8Qler3RHd0jNBa5p8nWb1IXy+DB14g/HpLFjTCSAhBCIFGmNEI49n74fx9K49GmNcIU22yGY0wsdbOzP0q3l1qTCS5sUK1F6GzT0uKk2Fpza70ETyXh4W+wW5kx/GXWDeSScZZ9z4f6ya2NHHleAknYt1M/h8VXWttpLnCxfOcP0OrWco57wqqFaI3xVViKz1laIQJzGM6zK0tdUUsZr/zse5Id17lCHOO45A0ecfoLEslX9mYZBE54UqNEN/Uaq2XF9EIU/gWjmZGFTEW605kRk5KHj8R62sExLqpnEAbJmK9Q34ozJnMPVzDj3TW3+0hz/lWfP2yZ9sYpzC+C5Nm46K5NJuxbkzy6gyO44Hc87Hu6Lq/mTOFqaIs1s3jD5kul8UwZyn75iyJ8KPSbH5+R2Sj5N1azykhvCUGQoX/vLW+32xclDxHI4zEusPSxuZwRvQ4ThXDvCQKNjenbrxMXsN/8W1pg3HnlQ68Dr29hOqCGN8WKolwO1Lu3osJ1oxawk9wDu/FkcJCluN47q0tYiQbdx3yHP4HXrYTwjHQPwzPiquXMqGSOpwTmZZOZdNt+iNs7NFsAbu/RDUu5f9dhf8ZyUJdmEtRlRP+JL7UlVA3NDHQT8/A81orz65P2zbCs/EZPAMaARbaRjsmlZPFgmyp4N0FJZ6Tcn8RT5To5vOXmnRA+CaGytlsghaqgaFRYmtWjOcvL+uRSs9mI5SttvdLYZ/jCZnXM+JL7R/EurNS7i+U6NZQw3343GZWlSLfdu47SKXnKc2LT11WZD+DN3QdIg+1gnFRKlcdhm/LxLaNS00KyDdstNvqhib27qN/70krl77RoQ+B5XObGVRWqefbbmKmi+XmCjGmkDY1KZ/+JN1y3IYP40PSBIxReiuS5e0Qe0dftbr6ZZzu7BRYeaerNWFu/bYmm4DJnXo427yMSYvZfbk89/Cp7Hkxk1fwsI02JE3sGWTfwZfE8ADxZCeTKhfOsXJpM8PmS8QzWU4WcTTMrVvINsO0tFIvFmv6RlvLCu7utE66zegfZN9Nv6HyIPH10hFaTVYubGbUgs6y1N7OsbTJWIvFPhtNTii5tSTV49/iwJokJzs4/Lbh0e8SfiFaSbpVWoWDQgisLPPv02nqZnfHmTiEsKGHJxXJtiC0DO9/0uD+R4gvpw1Ft1NF2Nqh4zqjjPAe6W46IaJafc7QgUdUar8jxOTJXchmCygjPIaPguivhMeEymOEi7vtumY7KCN8u3RT9TPpXnrpehp0rdFOuCrdcR2VTi//d/gfrPOKw0PYFgIAAAAASUVORK5CYII=\"  title=\"雀书\"/>\n    <span>雀书</span>\n  </a>\n  <a href=\"http://lowcode-engine.cn\" target=\"_blank\">\n    <img src=\"http://lowcode-engine.cn/public/favicon.svg\"  title=\"低代码引擎\"/>\n    <span>低代码引擎</span>\n  </a>\n</div>\n",
       "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-15T15:24:13.000Z",
+      "date_modified": "2022-06-15T16:51:17.000Z",
       "authors": [],
       "tags": [
-        "低码技术",
+        "低码手册",
         "低代码产品墙"
       ]
     },
@@ -625,103 +959,6 @@
         "后端指北",
         "数据库",
         "redis"
-      ]
-    },
-    {
-      "title": "开发工具",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/",
-      "content_html": "<p>开发工具</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具"
-      ]
-    },
-    {
-      "title": "数据库工具",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/database-tool.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/database-tool.html",
-      "content_html": "<p>数据库工具</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "数据库工具"
-      ]
-    },
-    {
-      "title": "Docker",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/docker.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/docker.html",
-      "content_html": "<p>Docker</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "Docker"
-      ]
-    },
-    {
-      "title": "finalshell",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/finalshell.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/finalshell.html",
-      "content_html": "<p>finalshell</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "finalshell"
-      ]
-    },
-    {
-      "title": "Git",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/git.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/git.html",
-      "content_html": "<p>Git</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "Git"
-      ]
-    },
-    {
-      "title": "idea",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/idea.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/idea.html",
-      "content_html": "<p>idea</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "idea"
-      ]
-    },
-    {
-      "title": "k8s",
-      "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/k8s.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool/k8s.html",
-      "content_html": "<p>k8s</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "后端指北",
-        "开发工具",
-        "k8s"
       ]
     },
     {
@@ -1125,230 +1362,6 @@
       "tags": [
         "electron",
         "threejs"
-      ]
-    },
-    {
-      "title": "小程序",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/",
-      "content_html": "<p>小程序</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "小程序"
-      ]
-    },
-    {
-      "title": "react",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/react.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/react.html",
-      "content_html": "<p>react</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "小程序",
-        "react"
-      ]
-    },
-    {
-      "title": "vue",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/vue.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/mp/vue.html",
-      "content_html": "<p>vue</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "小程序",
-        "vue"
-      ]
-    },
-    {
-      "title": "通用",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/",
-      "content_html": "<p>通用</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "通用"
-      ]
-    },
-    {
-      "title": "动画",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/animation.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/animation.html",
-      "content_html": "<p>动画</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "动画"
-      ]
-    },
-    {
-      "title": "应用监控",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/app-monitoring.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/app-monitoring.html",
-      "content_html": "<p>应用监控</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "应用监控"
-      ]
-    },
-    {
-      "title": "浏览器",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/browser.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/browser.html",
-      "content_html": "<p>浏览器</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "浏览器"
-      ]
-    },
-    {
-      "title": "埋点",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/buried.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/buried.html",
-      "content_html": "<p>埋点</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "埋点"
-      ]
-    },
-    {
-      "title": "微前端",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/micro-frontend.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/micro-frontend.html",
-      "content_html": "<p>微前端</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "微前端"
-      ]
-    },
-    {
-      "title": "网络请求",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/network-request.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/network-request.html",
-      "content_html": "<p>网络请求</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "网络请求"
-      ]
-    },
-    {
-      "title": "npm包开发",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/npm-package-dev.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/npm-package-dev.html",
-      "content_html": "<p>npm包开发</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "npm包开发"
-      ]
-    },
-    {
-      "title": "项目工程化",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/project-engineering.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/project-engineering.html",
-      "content_html": "<p>项目工程化</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "项目工程化"
-      ]
-    },
-    {
-      "title": "web性能优化",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/web-performance-optimization.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/universal/web-performance-optimization.html",
-      "content_html": "<p>web性能优化</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "web性能优化"
-      ]
-    },
-    {
-      "title": "web/移动h5",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/",
-      "content_html": "<p>web/移动h5</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "web/移动h5"
-      ]
-    },
-    {
-      "title": "css",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/css.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/css.html",
-      "content_html": "<p>css</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "web/移动h5",
-        "css"
-      ]
-    },
-    {
-      "title": "html",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/html.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/html.html",
-      "content_html": "<p>html</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "web/移动h5",
-        "html"
-      ]
-    },
-    {
-      "title": "js",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/js.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/web-h5/js.html",
-      "content_html": "<p>js</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "web/移动h5",
-        "js"
       ]
     }
   ]

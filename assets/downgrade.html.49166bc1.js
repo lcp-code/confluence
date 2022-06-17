@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as r}from"./app.770c4fad.js";const _={},a=r("p",null,"\u964D\u7EA7",-1),c=[a];function n(s,d){return o(),t("div",null,c)}var i=e(_,[["render",n],["__file","downgrade.html.vue"]]);export{i as default};

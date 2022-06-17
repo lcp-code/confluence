@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.bbaec7f1.js";const c={},a=r("p",null,"\u5206\u5E03\u5F0F Leader \u8282\u70B9\u9009\u4E3E",-1),d=[a];function n(s,_){return t(),o("div",null,d)}var f=e(c,[["render",n],["__file","distributed-leader-node-election.html.vue"]]);export{f as default};

@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as s,c as t,a}from"./app.bbaec7f1.js";const c={},o=a("p",null,"\u53EF\u4F38\u7F29\u8BBE\u8BA1",-1),_=[o];function l(n,r){return s(),t("div",null,_)}var f=e(c,[["render",l],["__file","scalable-design.html.vue"]]);export{f as default};

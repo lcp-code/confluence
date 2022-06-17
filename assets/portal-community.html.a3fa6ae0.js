@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.bbaec7f1.js";const c={},_=r("p",null,"\u95E8\u6237/\u793E\u533A",-1),a=[_];function n(s,l){return t(),o("div",null,a)}var f=e(c,[["render",n],["__file","portal-community.html.vue"]]);export{f as default};

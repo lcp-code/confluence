@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as a,a as o}from"./app.bbaec7f1.js";const r={},_=o("p",null,"Java \u591A\u7EBF\u7A0B\u7F16\u7A0B",-1),c=[_];function n(s,l){return t(),a("div",null,c)}var d=e(r,[["render",n],["__file","multithreading.html.vue"]]);export{d as default};
