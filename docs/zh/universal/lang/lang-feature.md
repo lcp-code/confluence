@@ -75,7 +75,7 @@ star: true
 > 注释：V8于2008年由Google开源，用C++写成，它将JavaScript源代码编译成本地机器码而不是解释执行。
 
 ##### **各类语言薪资分布图**
-![](/images/各类语言薪资分布图.png)
+![](https://oss.uuyang.cn/confluence%2F%E5%90%84%E7%B1%BB%E8%AF%AD%E8%A8%80%E8%96%AA%E8%B5%84%E5%88%86%E5%B8%83%E5%9B%BE.png)
 
 本文地址：
 - https://confluence.uuyang.cn/zh/universal/lang/lang-feature.html

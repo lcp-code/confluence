@@ -9,4 +9,4 @@ tag:
   - 开发工具
 ---
 
-开发工具
+开发工具见[计算机通用/开发工具](/zh/universal/dev-tool/vscode/extensions-path.md)
