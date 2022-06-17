@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.9b1cd719.js";const c={},_=r("p",null,"flutter\u6838\u5FC3",-1),s=[_];function a(n,l){return t(),o("div",null,s)}var m=e(c,[["render",a],["__file","core.html.vue"]]);export{m as default};

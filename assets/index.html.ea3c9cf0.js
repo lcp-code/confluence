@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as n}from"./app.9b1cd719.js";const r={},_=n("p",null,"android",-1),c=[_];function a(s,d){return o(),t("div",null,c)}var f=e(r,[["render",a],["__file","index.html.vue"]]);export{f as default};

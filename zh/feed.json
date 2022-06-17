@@ -6,6 +6,33 @@
   "description": "低码爱好者汇集的地方",
   "items": [
     {
+      "title": "算法常见问题",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/algorithm/faq/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/algorithm/faq/",
+      "content_html": "<h2 id=\"目录\" tabindex=\"-1\"> 目录</h2>\n<p>算法常见问题</p>\n",
+      "date_published": "2022-06-17T16:09:37.000Z",
+      "date_modified": "2022-06-17T16:09:37.000Z",
+      "authors": [],
+      "tags": [
+        "算法",
+        "算法常见问题"
+      ]
+    },
+    {
+      "title": "缓存淘汰算法",
+      "url": "https://confluence.uuyang.cn/confluence/zh/universal/algorithm/faq/lru.html",
+      "id": "https://confluence.uuyang.cn/confluence/zh/universal/algorithm/faq/lru.html",
+      "content_html": "<h3 id=\"定义\" tabindex=\"-1\"> <strong>定义</strong></h3>\n<p>最近使用的数据是热门数据，下一次很大概率将会再次被使用。而最近很少被使用的数据，很大概率下一次不再用到。当缓存容量的满时候，优先淘汰最近很少使用的数据。</p>\n<h3 id=\"算法步骤\" tabindex=\"-1\"> <strong>算法步骤</strong></h3>\n<ol>\n<li>新数据直接插入到链表尾部</li>\n<li>缓存数据被命中，将数据移动到链表尾部</li>\n<li>缓存已满的时候，移除链表头部数据。</li>\n</ol>\n<h3 id=\"用途\" tabindex=\"-1\"> <strong>用途</strong></h3>\n<ul>\n<li>Redis、Guava中有使用</li>\n</ul>\n<h3 id=\"算法实现\" tabindex=\"-1\"> <strong>算法实现</strong></h3>\n<div><pre><code><span>/** 链表节点定义 */</span>\n<span>class</span> <span>LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span></span> <span>{</span>\n  key<span>:</span> <span>K</span><span>;</span>\n  value<span>:</span> <span>V</span><span>;</span>\n  next<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span><span>;</span>\n  prev<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span><span>;</span>\n\n  <span>constructor</span><span>(</span>\n    key<span>:</span> <span>K</span><span>,</span>\n    value<span>:</span> <span>V</span><span>,</span>\n    next<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span> <span>=</span> <span>null</span><span>,</span>\n    prev<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span> <span>=</span> <span>null</span>\n  <span>)</span> <span>{</span>\n    <span>this</span><span>.</span>key <span>=</span> key<span>;</span>\n    <span>this</span><span>.</span>value <span>=</span> value<span>;</span>\n    <span>this</span><span>.</span>next <span>=</span> next<span>;</span>\n    <span>this</span><span>.</span>prev <span>=</span> prev<span>;</span>\n  <span>}</span>\n<span>}</span>\n\n<span>/** 算法实现 */</span>\n<span>class</span> <span>LRUCache<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span></span> <span>{</span>\n  <span>/** 缓存键值 */</span>\n  <span>private</span> cacheMap<span>:</span> Map<span>&lt;</span><span>K</span><span>,</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>>></span><span>;</span>\n  <span>/** 最大缓存数量 */</span>\n  <span>private</span> <span>readonly</span> limit<span>:</span> <span>number</span><span>;</span>\n  <span>/** 头部节点 */</span>\n  <span>private</span> head<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span> <span>=</span> <span>null</span><span>;</span>\n  <span>/** 尾部节点 */</span>\n  <span>private</span> tail<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span> <span>|</span> <span>null</span> <span>=</span> <span>null</span><span>;</span>\n\n  <span>constructor</span><span>(</span>limit<span>:</span> <span>number</span><span>)</span> <span>{</span>\n    <span>if</span> <span>(</span>limit <span>&lt;=</span> <span>0</span><span>)</span> <span>throw</span> <span>new</span> <span>Error</span><span>(</span><span>\"limit of cache must > 0\"</span><span>)</span><span>;</span>\n    <span>this</span><span>.</span>cacheMap <span>=</span> <span>new</span> <span>Map</span><span>(</span><span>)</span><span>;</span>\n    <span>this</span><span>.</span>limit <span>=</span> limit<span>;</span>\n  <span>}</span>\n\n  <span>public</span> <span>get</span><span>(</span>key<span>:</span> <span>K</span><span>)</span><span>:</span> <span>V</span> <span>|</span> <span>null</span> <span>{</span>\n    <span>const</span> node <span>=</span> <span>this</span><span>.</span>cacheMap<span>.</span><span>get</span><span>(</span>key<span>)</span><span>;</span>\n    <span>if</span> <span>(</span><span>!</span>node<span>)</span> <span>return</span> <span>null</span><span>;</span>\n    <span>this</span><span>.</span><span>refreshNode</span><span>(</span>node<span>)</span><span>;</span>\n    <span>return</span> node<span>.</span>value<span>;</span>\n  <span>}</span>\n\n  <span>public</span> <span>put</span><span>(</span>key<span>:</span> <span>K</span><span>,</span> value<span>:</span> <span>V</span><span>)</span> <span>{</span>\n    <span>const</span> node <span>=</span> <span>this</span><span>.</span>cacheMap<span>.</span><span>get</span><span>(</span>key<span>)</span><span>;</span>\n    <span>// 原缓存不存在则加入到队尾</span>\n    <span>if</span> <span>(</span><span>!</span>node<span>)</span> <span>{</span>\n      <span>// 大于规定的size则删除最不常用的</span>\n      <span>if</span> <span>(</span><span>this</span><span>.</span>cacheMap<span>.</span>size <span>>=</span> <span>this</span><span>.</span>limit<span>)</span> <span>{</span>\n        <span>const</span> oldKey <span>=</span> <span>this</span><span>.</span><span>removeNode</span><span>(</span><span>this</span><span>.</span>head<span>!</span><span>)</span><span>;</span>\n        <span>this</span><span>.</span>cacheMap<span>.</span><span>delete</span><span>(</span>oldKey<span>)</span><span>;</span>\n      <span>}</span>\n      <span>// 在队尾添加</span>\n      <span>const</span> newNode <span>=</span> <span>new</span> <span>LinkedListNode</span><span>(</span>key<span>,</span> value<span>)</span><span>;</span>\n      <span>this</span><span>.</span><span>addNode</span><span>(</span>newNode<span>)</span><span>;</span>\n      <span>this</span><span>.</span>cacheMap<span>.</span><span>set</span><span>(</span>key<span>,</span> newNode<span>)</span><span>;</span>\n    <span>}</span> <span>else</span> <span>{</span>\n      <span>// 存在则更新值，刷新节点位置</span>\n      node<span>.</span>value <span>=</span> value<span>;</span>\n      <span>this</span><span>.</span><span>refreshNode</span><span>(</span>node<span>)</span><span>;</span>\n    <span>}</span>\n  <span>}</span>\n\n  <span>/** 缓存数据被命中，将数据移动到链表尾部 */</span>\n  <span>private</span> <span>refreshNode</span><span>(</span>node<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span><span>)</span> <span>{</span>\n    <span>if</span> <span>(</span>node <span>===</span> <span>this</span><span>.</span>tail<span>)</span> <span>return</span><span>;</span>\n    <span>this</span><span>.</span><span>removeNode</span><span>(</span>node<span>)</span><span>;</span>\n    <span>this</span><span>.</span><span>addNode</span><span>(</span>node<span>)</span><span>;</span>\n  <span>}</span>\n\n  <span>/** 删除节点 */</span>\n  <span>private</span> <span>removeNode</span><span>(</span>node<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span><span>)</span><span>:</span> <span>K</span> <span>{</span>\n    <span>if</span> <span>(</span>node <span>===</span> <span>this</span><span>.</span>tail<span>)</span> <span>{</span>\n      <span>// 尾节点</span>\n      <span>this</span><span>.</span>tail <span>=</span> <span>this</span><span>.</span>tail<span>.</span>prev<span>;</span>\n    <span>}</span> <span>else</span> <span>if</span> <span>(</span>node <span>===</span> <span>this</span><span>.</span>head<span>)</span> <span>{</span>\n      <span>// 头节点</span>\n      <span>this</span><span>.</span>head <span>=</span> <span>this</span><span>.</span>head<span>.</span>next<span>;</span>\n    <span>}</span> <span>else</span> <span>{</span>\n      <span>// 中间节点</span>\n      node<span>.</span>prev<span>!</span><span>.</span>next <span>=</span> node<span>.</span>next<span>;</span>\n      node<span>.</span>next<span>!</span><span>.</span>prev <span>=</span> node<span>.</span>prev<span>;</span>\n    <span>}</span>\n    <span>return</span> node<span>.</span>key<span>;</span>\n  <span>}</span>\n\n  <span>/**\n   * 这里向尾部追加节点\n   * <span>@param</span> <span>node</span>\n   */</span>\n  <span>private</span> <span>addNode</span><span>(</span>node<span>:</span> LinkedListNode<span>&lt;</span><span>K</span><span>,</span> <span>V</span><span>></span><span>)</span> <span>{</span>\n    <span>if</span> <span>(</span><span>this</span><span>.</span>tail<span>)</span> <span>{</span>\n      <span>this</span><span>.</span>tail<span>.</span>next <span>=</span> node<span>;</span>\n      node<span>.</span>prev <span>=</span> <span>this</span><span>.</span>tail<span>;</span>\n    <span>}</span>\n    <span>this</span><span>.</span>tail <span>=</span> node<span>;</span>\n    <span>if</span> <span>(</span><span>this</span><span>.</span>head <span>===</span> <span>null</span><span>)</span> <span>{</span>\n      <span>this</span><span>.</span>head <span>=</span> node<span>;</span>\n    <span>}</span>\n    <span>// 消除之前的节点的下一个引用对象,防止无限循环</span>\n    node<span>.</span>next <span>=</span> <span>null</span><span>;</span>\n  <span>}</span>\n<span>}</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>测试代码</p>\n<div><pre><code><span>const</span> cache <span>=</span> <span>new</span> <span>LRUCache<span>&lt;</span><span>string</span><span>,</span> <span>string</span><span>></span></span><span>(</span><span>3</span><span>)</span><span>;</span>\ncache<span>.</span><span>put</span><span>(</span><span>\"key1\"</span><span>,</span> <span>\"data1\"</span><span>)</span><span>;</span>\ncache<span>.</span><span>put</span><span>(</span><span>\"key2\"</span><span>,</span> <span>\"data2\"</span><span>)</span><span>;</span>\ncache<span>.</span><span>put</span><span>(</span><span>\"key3\"</span><span>,</span> <span>\"data3\"</span><span>)</span><span>;</span>\ncache<span>.</span><span>put</span><span>(</span><span>\"key4\"</span><span>,</span> <span>\"data4\"</span><span>)</span><span>;</span>\ncache<span>.</span><span>put</span><span>(</span><span>\"key5\"</span><span>,</span> <span>\"data5\"</span><span>)</span><span>;</span>\n\n<span>console</span><span>.</span><span>log</span><span>(</span>cache<span>)</span><span>;</span>\n</code></pre><div aria-hidden=\"true\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>参考</p>\n<ul>\n<li><a href=\"https://github.com/lcp-code/code-base/blob/main/typescript/06_linkedlist/LRUCache.ts\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/lcp-code/code-base/blob/main/typescript/06_linkedlist/LRUCache.ts</a></li>\n<li><a href=\"https://blog.csdn.net/weixin_41231928/article/details/120593579\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/weixin_41231928/article/details/120593579</a></li>\n</ul>\n<p>相关文章推荐</p>\n<ul>\n<li><a href=\"/zh/universal/data-structure/faq/get-type.html\">js数据类型判断的几种方式</a></li>\n<li><a href=\"/zh/universal/data-structure/faq/debounce-throttle.html\">手写debounce、throttle</a></li>\n</ul>\n",
+      "date_published": "2022-06-17T16:09:37.000Z",
+      "date_modified": "2022-06-17T16:09:37.000Z",
+      "authors": [],
+      "tags": [
+        "算法",
+        "算法常见问题",
+        "缓存淘汰算法"
+      ]
+    },
+    {
       "title": "开发工具",
       "url": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool.html",
       "id": "https://confluence.uuyang.cn/confluence/zh/back-end/dev-tool.html",
@@ -1274,19 +1301,6 @@
       ]
     },
     {
-      "title": "app",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/app/",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/app/",
-      "content_html": "<p>app</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "前端指南",
-        "app"
-      ]
-    },
-    {
       "title": "客户端",
       "url": "https://confluence.uuyang.cn/confluence/zh/front-end/client/",
       "id": "https://confluence.uuyang.cn/confluence/zh/front-end/client/",
@@ -1297,6 +1311,19 @@
       "tags": [
         "前端指南",
         "客户端"
+      ]
+    },
+    {
+      "title": "app",
+      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/app/",
+      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/app/",
+      "content_html": "<p>app</p>\n",
+      "date_published": "2022-06-11T07:09:44.000Z",
+      "date_modified": "2022-06-11T07:09:44.000Z",
+      "authors": [],
+      "tags": [
+        "前端指南",
+        "app"
       ]
     },
     {
@@ -1336,32 +1363,6 @@
       "tags": [
         "electron",
         "layabox"
-      ]
-    },
-    {
-      "title": "服务端",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/game/service.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/game/service.html",
-      "content_html": "<p>服务端</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "electron",
-        "服务端"
-      ]
-    },
-    {
-      "title": "threejs",
-      "url": "https://confluence.uuyang.cn/confluence/zh/front-end/game/threejs.html",
-      "id": "https://confluence.uuyang.cn/confluence/zh/front-end/game/threejs.html",
-      "content_html": "<p>threejs</p>\n",
-      "date_published": "2022-06-11T07:09:44.000Z",
-      "date_modified": "2022-06-11T07:09:44.000Z",
-      "authors": [],
-      "tags": [
-        "electron",
-        "threejs"
       ]
     }
   ]

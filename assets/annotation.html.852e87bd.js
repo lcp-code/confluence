@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as n}from"./app.9b1cd719.js";const a={},_=n("p",null,"\u6CE8\u89E3",-1),c=[_];function r(s,l){return t(),o("div",null,c)}var m=e(a,[["render",r],["__file","annotation.html.vue"]]);export{m as default};

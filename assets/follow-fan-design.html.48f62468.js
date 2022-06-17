@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as n}from"./app.9b1cd719.js";const s={},_=n("p",null,"\u5173\u6CE8\u7C89\u4E1D\u8BBE\u8BA1",-1),a=[_];function c(l,r){return o(),t("div",null,a)}var d=e(s,[["render",c],["__file","follow-fan-design.html.vue"]]);export{d as default};
