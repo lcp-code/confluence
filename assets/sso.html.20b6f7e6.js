@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as s,a as t}from"./app.6acf8a6b.js";const _={},c=t("p",null,"SSO",-1),r=[c];function a(n,l){return o(),s("div",null,r)}var m=e(_,[["render",a],["__file","sso.html.vue"]]);export{m as default};

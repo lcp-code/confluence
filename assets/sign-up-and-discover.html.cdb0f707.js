@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as s,a as t}from"./app.6acf8a6b.js";const c={},n=t("p",null,"\u6CE8\u518C\u548C\u53D1\u73B0\uFF08\u6838\u5FC3\u80FD\u529B\uFF09",-1),r=[n];function _(a,i){return o(),s("div",null,r)}var f=e(c,[["render",_],["__file","sign-up-and-discover.html.vue"]]);export{f as default};

@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as r}from"./app.9b1cd719.js";const _={},c=r("p",null,"\u57CB\u70B9",-1),s=[c];function a(n,l){return t(),o("div",null,s)}var f=e(_,[["render",a],["__file","buried.html.vue"]]);export{f as default};

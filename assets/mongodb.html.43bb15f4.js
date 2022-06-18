@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as e,c as t,a as n}from"./app.6acf8a6b.js";const _={},c=n("p",null,"mongodb",-1),r=[c];function s(a,l){return e(),t("div",null,r)}var f=o(_,[["render",s],["__file","mongodb.html.vue"]]);export{f as default};

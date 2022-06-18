@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as n}from"./app.9b1cd719.js";const r={},_=n("p",null,"\u5E94\u7528\u76D1\u63A7",-1),a=[_];function c(s,i){return o(),t("div",null,a)}var m=e(r,[["render",c],["__file","app-monitoring.html.vue"]]);export{m as default};

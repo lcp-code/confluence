@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as s,c as t,a as o}from"./app.9b1cd719.js";const r={},_=o("p",null,"\u7528\u6237\u6743\u9650\u4F53\u7CFB",-1),c=[_];function n(a,i){return s(),t("div",null,c)}var f=e(r,[["render",n],["__file","user-permission-system.html.vue"]]);export{f as default};

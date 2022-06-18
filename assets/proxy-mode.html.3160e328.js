@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as t,a as r}from"./app.6acf8a6b.js";const _={},c=r("p",null,"\u4EE3\u7406\u6A21\u5F0F",-1),s=[c];function a(n,l){return o(),t("div",null,s)}var f=e(_,[["render",a],["__file","proxy-mode.html.vue"]]);export{f as default};

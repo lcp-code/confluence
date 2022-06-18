@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as c,c as t,a as o}from"./app.9b1cd719.js";const n={},r=o("p",null,"CDN\u52A0\u901F",-1),a=[r];function _(s,l){return c(),t("div",null,a)}var f=e(n,[["render",_],["__file","cdn-acceleration.html.vue"]]);export{f as default};
