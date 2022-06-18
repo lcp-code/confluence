@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 <div align="center">
 	<p align="center">
-		<a href="https://confluence.uuyang.cn/zh/">
+		<a href="https://confluence.uuyang.cn/">
 			<img src="https://oss.uuyang.cn/confluence%2Flogo.svg" alt="logo" style="transform: rotate(0deg) scale(1, 1); opacity: 1; width: 220.096px; height: 178.752px; overflow: visible;">
 		</a>
 	</p>
@@ -9,7 +9,7 @@
 	<h4 align="center">✨低码汇 / lowcode confluence✨</h4>
 </div>
 <div align="center">
-	<a href="https://confluence.uuyang.cn/zh/">
+	<a href="https://confluence.uuyang.cn/">
 		<img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读" />
 	</a>
 	<img src="https://img.shields.io/github/stars/lcp-code/confluence" alt="stars" />

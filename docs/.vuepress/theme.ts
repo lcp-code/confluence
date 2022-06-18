@@ -70,7 +70,7 @@ export default hopeTheme({
   },
   fullscreen: true,
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: navbar.en,
 
@@ -83,14 +83,14 @@ export default hopeTheme({
 
       blog: {
         description: "Where low-code lovers gather",
-        intro: "/intro.html",
+        intro: "/en/intro.html",
       },
     },
 
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: navbar.zh,
 
@@ -103,15 +103,15 @@ export default hopeTheme({
 
       blog: {
         description: "低码爱好者汇集的地方",
-        intro: "/zh/intro.html",
+        intro: "/intro.html",
       },
     },
   },
 
   encrypt: {
     config: {
+      "/en/guide/encrypt.html": ["1234"],
       "/guide/encrypt.html": ["1234"],
-      "/zh/guide/encrypt.html": ["1234"],
     },
   },
   plugins: {
@@ -157,7 +157,8 @@ export default hopeTheme({
       },
     },
     photoSwipe: {
-      selector: "img",
+      // logo图片不展开
+      selector: ":not(.brand) > img",
     },
     seo: {
       canonical: site,

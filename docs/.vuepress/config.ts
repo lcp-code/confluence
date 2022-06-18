@@ -12,12 +12,12 @@ export default defineUserConfig({
   title: "低码汇",
   description: `涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力, ${keywords}`,
   locales: {
-    // "/": {
-    //   lang: "en-US",
-    //   title: "Theme Demo",
-    //   description: "A demo for vuepress-theme-hope",
-    // },
-    "/zh/": {
+    "/en/": {
+      lang: "en-US",
+      title: "lowcode confluence",
+      description: "Where low-code lovers gather",
+    },
+    "/": {
       lang: "zh-CN",
       title: "低码汇",
       description: "低码爱好者汇集的地方",

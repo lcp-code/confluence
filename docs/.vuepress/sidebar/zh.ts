@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zh = sidebar({
-  "/zh/": [
+  "/": [
     "slide",
     {
       text: "计算机通用",
@@ -94,11 +94,11 @@ export const zh = sidebar({
       children: ["computer-basics/"],
     },
   ],
-  "/zh/universal/": "structure",
-  "/zh/front-end/": "structure",
-  "/zh/back-end/": "structure",
-  "/zh/lowcode/": "structure",
-  "/zh/careers/": "structure",
-  "/zh/projects/": "structure",
-  "/zh/books/": "structure",
+  "/universal/": "structure",
+  "/front-end/": "structure",
+  "/back-end/": "structure",
+  "/lowcode/": "structure",
+  "/careers/": "structure",
+  "/projects/": "structure",
+  "/books/": "structure",
 });

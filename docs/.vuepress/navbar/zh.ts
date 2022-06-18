@@ -1,13 +1,13 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zh = navbar([
-  // "/zh",
-  { text: "计算机通用", icon: "creative", link: "/zh/universal/" },
-  { text: "前端指南", icon: "creative", link: "/zh/front-end/" },
-  { text: "后端指北", icon: "creative", link: "/zh/back-end/" },
-  { text: "低码手册", icon: "creative", link: "/zh/lowcode/" },
-  "/zh/wall",
-  { text: "求职与创业", icon: "creative", link: "/zh/careers/" },
-  { text: "项目精选", icon: "creative", link: "/zh/projects/" },
-  { text: "书籍精选", icon: "creative", link: "/zh/books/" },
+  // "/",
+  { text: "计算机通用", icon: "creative", link: "/universal/" },
+  { text: "前端指南", icon: "creative", link: "/front-end/" },
+  { text: "后端指北", icon: "creative", link: "/back-end/" },
+  { text: "低码手册", icon: "creative", link: "/lowcode/" },
+  "/wall",
+  { text: "求职与创业", icon: "creative", link: "/careers/" },
+  { text: "项目精选", icon: "creative", link: "/projects/" },
+  { text: "书籍精选", icon: "creative", link: "/books/" },
 ]);

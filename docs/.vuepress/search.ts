@@ -9,10 +9,10 @@ export default searchPlugin({
   // 用于在页面的搜索索引中添加额外字段
   getExtraFields: () => [],
   locales: {
-    "/": {
+    "/en/": {
       placeholder: "Search",
     },
-    "/zh/": {
+    "/": {
       placeholder: "搜索",
     },
   },
