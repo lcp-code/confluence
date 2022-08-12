@@ -5,7 +5,6 @@ head:
     - name: description
       content: 缓存淘汰算法，LRU, 双向链表实现。
 icon: config
-order: 1
 category:
   - 算法
   - 算法常见问题

@@ -118,7 +118,7 @@ const getType = (value) => {
 - https://juejin.cn/post/6844903613584654344
 
 相关文章推荐
-- [深拷贝deepClone详解](./deep-clone.md)
-- [手写debounce、throttle](./debounce-throttle.md)
+- [深拷贝deepClone详解](https://confluence.uuyang.cn/universal/algorithm/deep-clone.md)
+- [手写debounce、throttle](https://confluence.uuyang.cn/universal/algorithm/debounce-throttle.md)
 - [各语言数据结构与算法实操](https://github.com/lcp-code/code-base)
 - [c、c++、java、go、python、javascript等各语言特性,薪资分布](../../../universal/lang/lang-feature.md)
