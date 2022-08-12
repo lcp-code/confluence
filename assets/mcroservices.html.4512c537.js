@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as c,c as o,a as r}from"./app.11b077a9.js";const s={},t=r("p",null,"\u5FAE\u670D\u52A1",-1),_=[t];function a(n,l){return c(),o("div",null,_)}var f=e(s,[["render",a],["__file","mcroservices.html.vue"]]);export{f as default};

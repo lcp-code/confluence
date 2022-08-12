@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.11b077a9.js";const s={},_=c("p",null,"\u8BC4\u8BBA\u7CFB\u7EDF",-1),n=[_];function r(m,a){return t(),o("div",null,n)}var i=e(s,[["render",r],["__file","comment-system.html.vue"]]);export{i as default};

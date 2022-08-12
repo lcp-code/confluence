@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as s}from"./app.11b077a9.js";const _={},c=s("p",null,"\u5373\u65F6\u901A\u8BAF\u7CFB\u7EDF",-1),r=[c];function a(n,m){return t(),o("div",null,r)}var f=e(_,[["render",a],["__file","im-system.html.vue"]]);export{f as default};

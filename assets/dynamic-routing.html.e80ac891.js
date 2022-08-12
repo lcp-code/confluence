@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.11b077a9.js";const n={},r=c("p",null,"\u52A8\u6001\u8DEF\u7531",-1),_=[r];function a(s,i){return t(),o("div",null,_)}var d=e(n,[["render",a],["__file","dynamic-routing.html.vue"]]);export{d as default};

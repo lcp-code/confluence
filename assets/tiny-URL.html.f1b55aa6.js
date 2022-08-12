@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as _}from"./app.11b077a9.js";const c={},n=_("p",null,"\u77ED\u94FE\u7CFB\u7EDF",-1),r=[n];function s(a,l){return t(),o("div",null,r)}var m=e(c,[["render",s],["__file","tiny-URL.html.vue"]]);export{m as default};

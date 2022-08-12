@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as a,a as o}from"./app.11b077a9.js";const r={},_=o("p",null,"\u5E94\u7528\u5E02\u573A",-1),c=[_];function s(n,l){return t(),a("div",null,c)}var f=e(r,[["render",s],["__file","app-market.html.vue"]]);export{f as default};

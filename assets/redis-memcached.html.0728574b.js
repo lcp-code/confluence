@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as c,c as t,a as o}from"./app.11b077a9.js";const r={},s=o("p",null,"\u7F13\u5B58\u7CFB\u7EDF",-1),_=[s];function a(n,d){return c(),t("div",null,_)}var i=e(r,[["render",a],["__file","redis-memcached.html.vue"]]);export{i as default};

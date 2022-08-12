@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as s,c as t,a as c}from"./app.6acf8a6b.js";const a={},o=c("p",null,"\u5BB9\u91CF\u8BC4\u4F30",-1),_=[o];function n(r,l){return s(),t("div",null,_)}var f=e(a,[["render",n],["__file","capacity-assessment.html.vue"]]);export{f as default};

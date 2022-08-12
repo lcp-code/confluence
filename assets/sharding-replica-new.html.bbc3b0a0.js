@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as r,c as t,a}from"./app.11b077a9.js";const c={},o=a("p",null,"\u6570\u636E\u5E93\u62C6\u5206\u4E0E\u5907\u4EFD",-1),n=[o];function s(_,l){return r(),t("div",null,n)}var f=e(c,[["render",s],["__file","sharding-replica-new.html.vue"]]);export{f as default};

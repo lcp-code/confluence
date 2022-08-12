@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as s,a as o}from"./app.11b077a9.js";const _={},c=o("p",null,"\u65B0\u9C9C\u4E8B\u7CFB\u7EDF",-1),n=[c];function r(a,l){return t(),s("div",null,n)}var f=e(_,[["render",r],["__file","news-feed-system.html.vue"]]);export{f as default};

@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c,a as t}from"./app.11b077a9.js";const s={},_=t("p",null,"vscode\u63D2\u4EF6",-1),n=[_];function r(a,l){return o(),c("div",null,n)}var f=e(s,[["render",r],["__file","vscode-plugin.html.vue"]]);export{f as default};
