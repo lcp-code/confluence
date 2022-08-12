@@ -19,8 +19,8 @@
 	<img src="https://img.shields.io/npm/l/vuepress-theme-hope.svg" alt="License" />
 </div>
 
-<p align="center" style="margin: 10px 0 0 0;">涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力。</p>
-<p align="center" style="margin-bottom: 100px;">Covers the core knowledge that most front-end and back-end programmers need to master, reuse is low code, and tempers high reuse coding ability.</p>
+<p align="center" style="margin: 10px 0 0 0;">涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力，精进数字化解决方案技术。</p>
+<p align="center" style="margin-bottom: 100px;">Covers the core knowledge that most front-end and back-end programmers need to master, reuse is low code, temper high reuse coding ability, and improve digital solution technology.</p>
 
 
 ##### PR说明

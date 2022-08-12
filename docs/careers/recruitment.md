@@ -1,7 +1,7 @@
 ---
 title: 招聘
 icon: config
-order: 3
+order: 4
 category:
   - 求职与创业
   - 招聘

@@ -103,7 +103,7 @@ export default hopeTheme({
 
       blog: {
         description: "低码爱好者汇集的地方",
-        intro: "/intro.html",
+        // intro: "/intro.html",
       },
     },
   },

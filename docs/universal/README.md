@@ -7,7 +7,7 @@ category:
 ---
 
 本文地址：
-- https://confluence.uuyang.cn/universal/data-structure/
+- https://confluence.uuyang.cn/universal/
 
 ## 目录
 - [语言](./lang/lang-feature.md)

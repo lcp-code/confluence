@@ -1,14 +1,14 @@
 ---
-title: 求职
+title: 企业架构设计-TOGAF
 index: false
 icon: creative
 # 这是侧边栏的顺序
 dir:
-  order: 1
+  order: 3
 category:
   - 求职与创业
-  - 求职
+  - 企业架构设计-TOGAF
 ---
 
-求职
+企业架构设计-TOGAF
 

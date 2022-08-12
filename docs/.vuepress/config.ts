@@ -10,7 +10,7 @@ const keywords =
 export default defineUserConfig({
   base: !prefix ? "/" : prefix,
   title: "低码汇",
-  description: `涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力, ${keywords}`,
+  description: `涵盖大部分前、后端程序员所需要掌握的核心知识，复用即低码，锤炼高复用编码能力，精进数字化解决方案技术, ${keywords}`,
   locales: {
     "/en/": {
       lang: "en-US",
